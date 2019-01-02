@@ -14,7 +14,7 @@ export default class Home extends Component {
     this.state = {
       myTabs: [
         { key: 'films', href: "/films", icon: "icon-shouye", name: '首页' },
-        { key: 'cinemas', href: "/cinemas", icon: "icon-faxian", name: '发现' },
+        { key: 'discover', href: "/discover", icon: "icon-faxian", name: '发现' },
         { key: 'card', href: "/card", icon: "icon-dingdan", name: '订单' },
         { key: 'center', href: "/center", icon: "icon-tubiao-", name: '我的' }
       ]

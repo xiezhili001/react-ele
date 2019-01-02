@@ -3,6 +3,7 @@
   flex:1;
   display: flex;
   flex-direction: column;
+
   &-top{
     flex:2;
     display: flex;
@@ -26,6 +27,7 @@
         }
         .p2{
           color:#999;
+          font-size: px2rem(14)
         }
       }
       .left2{
@@ -128,7 +130,7 @@
           width:px2rem(60);
           text-align: center;
           font-size:px2rem(14);
-          color:white; 
+          color:white;
         }
         .p2{
           img{
@@ -158,7 +160,7 @@
           width:px2rem(60);
           text-align: center;
           font-size:px2rem(14);
-          color:white; 
+          color:white;
         }
         .p2{
           img{
@@ -187,7 +189,7 @@
           width:px2rem(60);
           text-align: center;
           font-size:px2rem(14);
-          color:white; 
+          color:white;
         }
         .p2{
           img{
