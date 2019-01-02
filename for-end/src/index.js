@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import App from './App';
-import './base.scss';
+import './styles/base.scss';
 
 ReactDOM.render(
-  <App></App>,
+    <App></App>,
   document.getElementById('root')
 )

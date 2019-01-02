@@ -1,24 +1,24 @@
+@import '@/styles/common/px2rem.scss';
 .films {
   flex: 1;
   height: 100%;
   overflow: auto;
   .city-fixed {
     position: absolute;
-    top: 18px;
-    left: 8px;
+    top: px2rem(18);
+    left: px2rem(8);
     z-index: 999;
-    height: 30px;
-    line-height: 30px;
-    font-size: 14px;
+    height: px2rem(30);
+    line-height: px2rem(30);
+    font-size: px2rem(14);
     color: #fff;
-    border-radius: 15px;
+    border-radius: px2rem(15);
     text-align: center;
-    padding: 0 5px;
+    padding: 0 px2rem(5);
     background: rgba(0, 0, 0, 0.2);
   }
   .a {
-    height: 800px;
-
+    height: px2rem(800);
   }
 
 }
