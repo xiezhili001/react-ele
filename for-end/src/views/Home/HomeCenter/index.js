@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './index.scss';
 
 class HomeCenter extends React.Component {
@@ -103,7 +104,7 @@ class HomeCenter extends React.Component {
             </div>
           </section>
           <div className="profile-2dyk_">
-            <div href="//h5.ele.me/service/agreement/#HEAEDER_SHOW=1">规则中心</div>
+            <Link to="/rules">规则中心</Link>
           </div>
         </div>
       </div>
