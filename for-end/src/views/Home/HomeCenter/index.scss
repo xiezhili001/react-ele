@@ -1,0 +1,129 @@
+@import '@/styles/common/px2rem.scss';
+.center{
+  flex: 1;
+  display: flex;
+  .profile-1vcJW{
+    // min-height: 100vh;
+    width: 100%;
+    .profile-3g0uv {
+      display: flex;
+      background-image: linear-gradient(90deg,#0af,#0085ff);
+      padding: px2rem(25) px2rem(15);
+      color: #fff;
+      align-items: center;
+      .index-18Ili {
+        border-radius: 50%;
+        width: px2rem(60);
+        height:px2rem(60);
+        span{
+          border-radius: 50%;
+          width: 100%;
+          height: 100%;
+          background: url('./img/logo.png');
+          background-position: px2rem(0) px2rem(60);
+          background-size: px2rem(60);
+          display: inline-block;
+        }
+      }
+      .profile-xfCcC {
+        overflow: hidden;
+        margin-left: px2rem(18);
+        flex-grow: 1;
+        .profile-1_mtk{
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          font-size: 0.9rem;
+          margin-bottom: 2.133333vw;
+          font-weight: 700;
+          display: flex;
+          align-items: center;
+        }
+        .profile-1UP72{
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          align-items: center;
+          font-size: px2rem(14);
+          display: flex;
+          font-weight: 400;
+          i{
+            font-size: px2rem(14);
+          }
+        }
+      }
+      .profile-2XuMq{
+        font-size: px2rem(12);
+        font-weight: 700;
+        color: #fff;
+        height: px2rem(21);
+      }
+    }
+  }
+}
+.index-1G7HV{
+  display: table;
+  width: 100%;
+  height: px2rem(84);
+  border-bottom: 1px solid #ddd;
+  background-color: #fff;
+  .index-1ryAh{
+    display: table-cell;
+    width: 33.3333%;
+    vertical-align: middle;
+    text-align: center;
+    outline: none;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    p{
+      margin: 0;
+      font-weight: 400;
+      display: block;
+      .index-2FmrF{
+        color: rgb(0, 152, 251);
+        padding: px2rem(17) 0 px2rem(11);
+        font-size: px2rem(26);
+        line-height: px2rem(26);
+        font-weight: 700;
+      }
+      .index-2V-Hh{
+        color: rgb(0, 152, 251);
+        font-size: px2rem(14);
+        font-weight: 400;
+        text-align: center;
+      }
+      .red{
+        color: rgb(255, 95, 62);
+      }
+      .green{
+        color: rgb(106, 194, 11);
+      }
+    }
+    .index-3S6cZ{
+      margin-top: px2rem(4.9);
+      font-size: px2rem(14);
+      line-height: px2rem(14);
+      color: #666;
+      font-weight: 700;
+    }
+  }
+  .index-1ryAh:not(:last-child){
+    border-right: px2rem(1) solid #ddd;
+  }
+}
+.profile-1reTe{
+  margin-top: px2rem(10);
+  border-top: px2rem(1) solid #ddd;
+  border-bottom: px2rem(1) solid #ddd;
+  font-size: px2rem(16);
+  line-height: 4.533333vw;
+  background: #fff;
+  .index-2MEEn{
+    font-size: px2rem(16);
+    color: #333;
+    display: flex;
+    align-items: center;
+    padding-left: 6.666667vw;
+  }
+}
