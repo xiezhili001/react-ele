@@ -1,0 +1,248 @@
+@import '@/styles/common/px2rem.scss';
+
+.hungry {
+  background-color: white;
+  flex: 1;
+  height: 100%;
+  overflow-y: scroll;
+  height: px2rem(1000);
+
+  .header {
+    height: px2rem(50);
+    background-color: #0085ff;
+
+    .arial {
+      display: inline-block;
+      height: px2rem(50);
+      width: 100%;
+      color: white;
+      padding: px2rem(20);
+      padding-left: px2rem(30);
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+  }
+
+  .foot-t {
+    position: sticky;
+    top: 0;
+    height: px2rem(50);
+    background: #0085ff;
+    text-align: center;
+    z-index: 999999;
+
+    .food {
+      margin-top: px2rem(5);
+      display: inline-block;
+      height: px2rem(40);
+      width: px2rem(320);
+      background-color: white;
+      line-height: px2rem(40);
+      font-family: simsun;
+      color: #999;
+
+
+    }
+  }
+
+  .banner {
+    height: px2rem(150);
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      text-align: center;
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+
+      .detail {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img {
+        width: px2rem(50);
+      }
+
+      span {
+        color: #666;
+        text-align: center;
+        font-size: px2rem(10);
+      }
+    }
+
+  }
+
+  .special {
+    margin-left: px2rem(10);
+    margin-top: px2rem(10);
+    width: 95%;
+    height: px2rem(40);
+    background: linear-gradient(#f3dda0, #bb8f204f);
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      width: px2rem(20);
+
+    }
+
+    p {
+      margin-left: px2rem(10);
+      display: inline-block;
+      font-size: px2rem(10);
+    }
+
+    h2 {
+      display: inline-block;
+      font-size: px2rem(10);
+      color: #644f1b;
+      font-weight: bold;
+      margin-left: px2rem(10);
+    }
+
+    .on {
+      font-size: px2rem(10);
+      color: #644f1b;
+    }
+  }
+
+  .rub {
+    margin-top: px2rem(5);
+    height: px2rem(140);
+    display: flex;
+    justify-content: center;
+    margin-bottom: px2rem(5);
+
+    .same {
+      padding-top: px2rem(15);
+      padding-left: px2rem(10);
+      height: 100%;
+      width: 48%;
+      background-color: #f4f4f4;
+      margin-right: px2rem(2.5);
+
+      h3 {
+        font-size: px2rem(18);
+        font-weight: bold;
+        color: black;
+
+      }
+
+      .red {
+        color: red;
+      }
+
+      p {
+        margin: px2rem(10) 0;
+        font-size: px2rem(15);
+        color: #777;
+      }
+
+      img {
+        width: px2rem(90);
+        float: right;
+      }
+
+      span {
+
+        font-size: px2rem(13);
+        font-weight: bold;
+        color: #333;
+
+        em {
+          color: red;
+        }
+      }
+
+      .d1 {
+        color: #af8260;
+
+      }
+
+    }
+
+  }
+
+  .tuijian {
+    margin-top: px2rem(10);
+    text-align: center;
+    font-size: px2rem(15);
+  }
+
+  .paixu {
+    position: sticky;
+    top: px2rem(50);
+    z-index: 999999;
+    margin-top: px2rem(10);
+    height: px2rem(30);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #666;
+    font-size: px2rem(14);
+    border-bottom: px2rem(0.5)#eeeeeef2 solid;
+  }
+
+  .list {
+    font-size: px2rem(15);
+
+    li {
+      padding-top: px2rem(10);
+      height: px2rem(100);
+      border-bottom: px2rem(0.5) #eeeeeef2 solid;
+    }
+
+    img {
+      width: px2rem(50);
+      float: left;
+    }
+
+    i {
+      font-size: px2rem(10);
+      display: inline-block;
+      background: yellow;
+      width: px2rem(40);
+      height: px2rem(20);
+      color: #69690a;
+      font-weight: bold;
+      text-align: center;
+      line-height: px2rem(20);
+      margin-right: px2rem(10);
+
+    }
+
+    span {
+      color: black;
+      font-weight: bold;
+    }
+
+    p {
+      margin-top: px2rem(10);
+      font-size: px2rem(10);
+      color: #666;
+
+      span {
+        color: #666;
+        font-weight: 100;
+      }
+    }
+  }
+
+  .right {
+    margin-left: px2rem(70);
+  }
+
+
+}

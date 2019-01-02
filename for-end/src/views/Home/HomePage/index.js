@@ -7,26 +7,14 @@ import './index.scss'
   1. // 组件中要使用 仓库的数据，就得先做引入,
   2. 在构造函数中，调用 store.getState() 方法， 能返回仓库的 state (数据)
 */
-// import store from '@/store';
+import store from '@/store';
 
-class HomeFilms extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     myCity: store.getState().city.curCity
-  //   }
+class HomePage extends React.Component {
 
-  //   store.subscribe(() => {
-  //     console.log('仓库发生了变化');
-  //     console.log(store.getState());
-  //     this.setState({
-  //       myCity: store.getState().city.curCity
-  //     })
-  //   })
-  // }
   constructor(props){
     super(props);
     this.state={
+      myCity: store.getState().city.curCity,
       banner:[
         {
           'discribe':'麻辣烫',
@@ -135,16 +123,23 @@ class HomeFilms extends React.Component {
 
       ]
     }
+    store.subscribe(() => {
+      console.log('仓库发生了变化');
+      console.log(store.getState());
+      this.setState({
+        myCity: store.getState().city.curCity
+      })
+    })
   }
 
 
 
   render() {
-
+    let zlCity = this.state.myCity || '北京市'
     return (
       <div className="hungry">
       <div className="header">
-       <Link to="/change" className="arial"><div className=" iconfont icon-dizhitianchong-" >金箔寓</div></Link>
+      <Link to="/detailCity" className="arial">{zlCity+' ∨'}</Link>
 
       </div>
       <div className="foot-t">
@@ -235,4 +230,4 @@ class HomeFilms extends React.Component {
   }
 }
 
-export default HomeFilms;
+export default HomePage;
