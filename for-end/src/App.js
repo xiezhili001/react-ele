@@ -5,6 +5,7 @@ import { setCity2 } from '@/store/actions';
 import Home from './views/Home';
 import City from './views/City';
 import store from './store';
+import login from './views/Login/index';
 
 class App extends React.Component {
 
@@ -16,6 +17,7 @@ class App extends React.Component {
     return (
       <Router>
         <Switch>
+          <Route path="/login" component={login}></Route>
           <Route path="/city" component={City}></Route>
           <Route path="/" component={Home}></Route>
         </Switch>
