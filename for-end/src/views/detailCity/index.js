@@ -15,7 +15,7 @@ export default class City extends Component {
       myCity: store.getState().city.curCity,
     }
 
-    store.subscribe(() => {
+    this.unsubscribe=store.subscribe(() => {
       console.log('仓库发生了变化');
       this.setState({
         myCity: store.getState().city.curCity
@@ -43,6 +43,9 @@ export default class City extends Component {
     this.props.history.replace('/films')
   }
 
+  componentWillUnmount(){
+    this.unsubscribe();
+  }
   render() {
     return (
       <div className="lv-cityDetail">
