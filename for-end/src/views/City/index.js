@@ -18,7 +18,7 @@ export default class City extends Component {
     // this.state = store.getState();
 
     // 监听 仓库的变化
-    store.subscribe(() => {
+    this.unsubscribe=store.subscribe(() => {
       console.log('仓库发生了变化');
       this.setState({
         myCity: store.getState().city.curCity
@@ -79,6 +79,9 @@ export default class City extends Component {
     this.getCity()
   }
 
+  componentWillUnmount(){
+    this.unsubscribe();
+  }
   render() {
     return (
       <div className="lv-city">
