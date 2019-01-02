@@ -148,10 +148,11 @@ class HomePage extends React.Component {
     <Carousel dots={false}>
     <ul className="banner">
      {
-       this.state.banner.map(item=>(
-        <li key={item.key}>
+       this.state.banner.map((item,index)=>(
+        <li key={index}>
         <Link to="/detail" className="detail">
-           <img src={item.imgUrl} key={item.key} />
+    {/* eslint-disable-next-line */}
+           <img src={item.imgUrl} key={index} />
            <span >{item.discribe}</span>
          </Link>
         </li>
@@ -160,10 +161,11 @@ class HomePage extends React.Component {
       </ul>
       <ul className="banner">
      {
-       this.state.banners.map(item=>(
-        <li key={item.key}>
+       this.state.banners.map((item,index)=>(
+        <li key={index}>
         <Link to="/detail" className="detail">
-           <img src={item.imgUrl} key={item.key} />
+    {/* eslint-disable-next-line */}
+           <img src={item.imgUrl} key={index} />
            <span >{item.discribe}</span>
          </Link>
         </li>
@@ -173,8 +175,8 @@ class HomePage extends React.Component {
 
     </Carousel>
     <div className="special">
-
-     <p> <img src="https://fuss10.elemecdn.com/8/0e/4dd212d831becab6e3ebd484c0941jpeg.jpeg?imageMogr/format/webp/thumbnail/34x/" /><h2>超级会员·</h2>每月领20元红包</p>
+    {/* eslint-disable-next-line */}
+     <p> <img src="https://fuss10.elemecdn.com/8/0e/4dd212d831becab6e3ebd484c0941jpeg.jpeg?imageMogr/format/webp/thumbnail/34x/" /><span className='h2'>超级会员·</span>每月领20元红包</p>
      <Link to="#" className="on">立即开通<i className="iconfont icon-iconfonti"></i></Link>
     </div>
     <div className="rub">
@@ -182,17 +184,21 @@ class HomePage extends React.Component {
       <h3>品质套餐</h3>
       <p>搭配齐全吃的好</p>
       <span className="d1">立即抢购<i  className="iconfont icon-iconfonti"></i></span>
+    {/* eslint-disable-next-line */}
       <img src="https://fuss10.elemecdn.com/d/d4/16ff085900d62b8d60fa7e9c6b65dpng.png?imageMogr/format/webp/thumbnail/!240x160r/gravity/Center/crop/240x160/"></img>
       </Link>
       <Link to="#" className="same">
       <h3 className="red">限量抢购</h3>
       <p>超值美味9.9元起</p>
       <span><em>187人</em>正在抢<i  className="iconfont icon-iconfonti"></i></span>
+    {/* eslint-disable-next-line */}
       <img src="https://fuss10.elemecdn.com/b/e1/0fa0ed514c093a7138b0b9a50d61fpng.png?imageMogr/format/webp/thumbnail/!240x160r/gravity/Center/crop/240x160/"></img>
       </Link>
     </div>
       <Carousel   infinite={true} autoplay={true}>
+    {/* eslint-disable-next-line */}
         <img src="https://fuss10.elemecdn.com/d/f5/456ea6285819f7932d8606bffeb35jpeg.jpeg?imageMogr/format/webp/thumbnail/568x/"/>
+    {/* eslint-disable-next-line */}
         <img src=" https://fuss10.elemecdn.com/7/90/8012dcb83434050f0363316f24809jpeg.jpeg?imageMogr/format/webp/thumbnail/568x/"/>
 
       </Carousel>
@@ -208,14 +214,16 @@ class HomePage extends React.Component {
       </div>
       <ul className="list">
      {
-       this.state.list.map(item=>(
-        <li key={item.key}>
+       this.state.list.map((item,index)=>(
+        <li key={index}>
         <Link to="/detail" className="detail">
 
-           <img src={item.imgUrl} key={item.key} />
+    {/* eslint-disable-next-line */}
+           <img src={item.imgUrl} key={index} />
 
           <div className="right">
             <i>品牌</i><span>{item.name}</span>
+    {/* eslint-disable-next-line */}
             <p><img src={item.star}/> <span>{item.pingjia}</span>月售{item.number}单</p>
             <p>￥{item.qisong}起送 | 配送费 {item.peisong}￥</p>
           </div>
