@@ -3,8 +3,10 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { setCity2 } from '@/store/actions';
 
 import Home from './views/Home';
-import City from './views/City';
+import detailCity from './views/detailCity';
 import store from './store';
+import City from './views/City';
+
 
 class App extends React.Component {
 
@@ -16,6 +18,7 @@ class App extends React.Component {
     return (
       <Router>
         <Switch>
+          <Route path="/detailCity" component={detailCity}></Route>
           <Route path="/city" component={City}></Route>
           <Route path="/" component={Home}></Route>
         </Switch>

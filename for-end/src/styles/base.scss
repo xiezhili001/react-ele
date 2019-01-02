@@ -2,6 +2,7 @@
 html,body{
     height: 100%;
 }
+
 #root{
     display: flex;
     flex-direction: column;
@@ -9,8 +10,9 @@ html,body{
     width:100%;
 }
 
+* { touch-action: pan-y; }
+
 body{
-    font-size:16px;
-    width:16rem;
-    margin:0 auto;
+    font-size: px2rem(16);
+    width: 100%;
 }

@@ -20,7 +20,6 @@ export default class City extends Component {
     // 监听 仓库的变化
     store.subscribe(() => {
       console.log('仓库发生了变化');
-      console.log(store.getState());
       this.setState({
         myCity: store.getState().city.curCity
       })
@@ -72,7 +71,7 @@ export default class City extends Component {
   }
 
   goBack() {
-    this.props.history.replace('/films')
+    this.props.history.replace('/detailCity')
   }
 
   componentWillMount() {
@@ -85,7 +84,7 @@ export default class City extends Component {
       <div className="lv-city">
 
         <header>
-          <i onClick={this.goBack.bind(this)}>×</i>
+          <i onClick={this.goBack.bind(this)} className="iconfont icon-fanhui"></i>
           当前城市-{ this.state.myCity }
         </header>
         <SearchBar placeholder="Search" maxLength={8} />

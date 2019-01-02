@@ -30,7 +30,7 @@ class HomeFilms extends React.Component {
     let zlCity = this.state.myCity || '北京市'
     return (
       <div className="films">
-        <Link to="/city" className="city-fixed">{zlCity+' ∨'}</Link>
+        <Link to="/detailCity" className="city-fixed">{zlCity+' ∨'}</Link>
         <Banner></Banner>
         <div className="a">
           <div className="b"></div>
