@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-// import store from '../../store';
 import { SearchBar } from 'antd-mobile';
 import './index.scss'
 import store from '../../store';
 import JSON from './cityDetail.json'
-// import { Toast} from 'antd-mobile'
 
 export default class City extends Component {
   constructor(props) {
@@ -52,7 +50,7 @@ export default class City extends Component {
 
         <header>
           <i className="iconfont icon-fanhui" onClick={this.goBack.bind(this)}></i>
-         选择收货地址{ this.state.myCity }
+         选择收货地址
         </header>
         <div className="search">
           <div className="city" onClick={this.goCity.bind(this)}>{this.state.myCity} ∨</div>
