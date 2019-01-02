@@ -1,0 +1,70 @@
+@import '../../styles/common/px2rem.scss';
+.app-1w6Q3_2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  height: 100%;
+  .am-list-body{
+    background-color: #fff;
+    .am-swipe{
+      border-bottom: px2rem(1) solid #ddd;
+      box-sizing: border-box;
+      // height: px2rem(48);
+      margin-left: px2rem(15);
+      .am-list-line{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: px2rem(15);
+        color: #333;
+        box-sizing: border-box;
+        .am-list-content{
+          font-size: px2rem(15);
+          padding: 0!important;
+        }
+      }
+    }
+  }
+}
+.am-accordion{
+  border-bottom: px2rem(1) solid #ddd;
+  box-sizing: border-box;
+  margin-left: px2rem(15);
+    .am-accordion-header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: px2rem(15);
+      color: #333;
+      box-sizing: border-box;
+      align-content: center;
+      font-size: px2rem(15)!important;
+      padding-left: px2rem(22)!important;
+    }
+    i{
+      top: px2rem(20)!important;
+    }
+}
+.am-accordion-content{
+  .am-list-item-middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: px2rem(15);
+    color: #333;
+    box-sizing: border-box;
+    align-content: center;
+    .am-list-content{
+      font-size: px2rem(15)!important;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #333;
+      box-sizing: border-box;
+      padding-left: px2rem(22)!important;
+    }
+  }
+}
+
