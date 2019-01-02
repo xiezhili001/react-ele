@@ -3,7 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import Tabbar from '@/components/Tabbar';
 
 import HomeFilms from './HomeFilms';
-import HomeCinemas from './HomeCinemas';
+import HomeDiscover from './HomeDiscover';
 import HomeCenter from './HomeCenter';
 import HomeCard from './HomeCard';
 
@@ -14,7 +14,7 @@ export default class Home extends Component {
     this.state = {
       myTabs: [
         { key: 'films', href: "/films", icon: "icon-yingyuana", name: '电影' },
-        { key: 'cinemas', href: "/cinemas", icon: "icon-dianying", name: '影院' },
+        { key: 'cinemas', href: "/discover", icon: "icon-faxian", name: '发现' },
         { key: 'card', href: "/card", icon: "icon-gouwuche", name: '购物车' },
         { key: 'center', href: "/center", icon: "icon-tubiao-", name: '我的' }
       ]
@@ -27,7 +27,7 @@ export default class Home extends Component {
         {/* 上面是可变的 */}
         <Switch>
           <Route path="/films" component={HomeFilms}></Route>
-          <Route path="/cinemas" component={HomeCinemas}></Route>
+          <Route path="/discover" component={HomeDiscover}></Route>
           <Route path="/card" component={HomeCard}></Route>
           <Route path="/center" component={HomeCenter}></Route>
           <Redirect to="/films"></Redirect>
