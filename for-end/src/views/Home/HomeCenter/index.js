@@ -26,25 +26,25 @@ class HomeCenter extends React.Component {
       <div className="center">
         <div className="profile-1vcJW">
           <section>
-            <Link to="detailLoginInfo">
-              <div className="profile-3g0uv">
-                <div className="index-18Ili">
-                  <span></span>
-                </div>
-                <div className="profile-xfCcC">
-                  <p className="profile-1_mtk">
-                    <span>44899d5d1</span>
-                  </p>
-                  <p className="profile-1UP72">
-                    <i className="iconfont icon-shouji"></i>
-                    <span>183****0481</span>
-                  </p>
-                </div>
-                <span className="profile-2XuMq">
-                  <i className="iconfont icon-qianjin"></i>
-                </span>
+            <div className="profile-3g0uv">
+              <div className="index-18Ili">
+                <span></span>
               </div>
-            </Link>
+              <div className="profile-xfCcC">
+                <p className="profile-1_mtk">
+                  <span ref="abab" >44899d5d1</span>
+                  <span ref="baba" >登录/注册</span>
+                </p>
+                <p className="profile-1UP72">
+                  <i className="iconfont icon-shouji"></i>
+                  <span ref="aabb" >183****0481</span>
+                  <span ref="bbaa" >登录后享受更多特权</span>
+                </p>
+              </div>
+              <span className="profile-2XuMq">
+                <i className="iconfont icon-xiangyou"></i>
+              </span>
+            </div>
           </section>
           {/* 这里写未登录时需要引入的组件 */}
           <div data-spm="maininfo" className="index-1G7HV"  ref="ooxx" >
@@ -108,7 +108,7 @@ class HomeCenter extends React.Component {
               <div className="index-yydpu">
                 我的地址
                 <span className="index-3Z8It">
-                  <i className="iconfont icon-qianjin"></i>
+                  <i className="iconfont icon-xiangyou"></i>
                 </span>
               </div>
             </div>
@@ -124,7 +124,7 @@ class HomeCenter extends React.Component {
               </div>
             </div>
             <div className="index-2MEEn">
-              <div className="index-161Mm">
+            <div className="index-161Mm">
                 <i className="iconfont icon-liwulipinjiangpin gift"></i>
               </div>
               <div className="index-yydpu">
@@ -140,7 +140,7 @@ class HomeCenter extends React.Component {
                 <i className="iconfont icon-wodekefu address"></i>
               </div>
               <div className="index-yydpu">
-                我的客服
+            我的客服
                 <span className="index-3Z8It"></span>
               </div>
             </div>
@@ -149,7 +149,7 @@ class HomeCenter extends React.Component {
                 <i className="iconfont icon-changyonglogo40 address"></i>
               </div>
               <div className="index-yydpu">
-                下载饿了么APP
+              下载饿了么APP
                 <span className="index-3Z8It"></span>
               </div>
             </div>
