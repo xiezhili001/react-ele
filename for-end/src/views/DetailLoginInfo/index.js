@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import './index.scss';
 class DetailLoginInfo extends Component {
   render() {
@@ -6,7 +7,7 @@ class DetailLoginInfo extends Component {
       <div className="gao-logininfo">
         <div className="gao-logininfo-username">
           <p>用户名</p>
-          <p>225565555<i className="iconfont icon-jiantou"></i></p>
+          <Link to="updateUsername">225565555<i className="iconfont icon-jiantou"></i></Link>
         </div>
         <div className="gao-logininfo-count">
           <p>账号绑定</p>

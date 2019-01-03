@@ -5,6 +5,7 @@ import { setCity2 } from '@/store/actions';
 import Home from './views/Home';
 import detailCity from './views/detailCity';
 import DetailLoginInfo from './views/DetailLoginInfo';
+import UpdateUsername from './views/UpdateUsername';
 import store from './store';
 import City from './views/City';
 import Rules from './views/Rules/index';
@@ -23,6 +24,7 @@ class App extends React.Component {
         <Switch>
           <Route path="/detailCity" component={detailCity}></Route>
           <Route path="/detailLoginInfo" component={DetailLoginInfo}></Route>
+          <Route path="/updateUsername" component={UpdateUsername}></Route>
           <Route path="/login" component={login}></Route>
           <Route path="/rules" component={Rules}></Route>
           <Route path="/city" component={City}></Route>

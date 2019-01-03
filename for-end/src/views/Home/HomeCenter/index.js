@@ -8,23 +8,25 @@ class HomeCenter extends React.Component {
       <div className="center">
         <div className="profile-1vcJW">
           <section>
-            <div className="profile-3g0uv">
-              <div className="index-18Ili">
-                <span></span>
+            <Link to="detailLoginInfo">
+              <div className="profile-3g0uv">
+                <div className="index-18Ili">
+                  <span></span>
+                </div>
+                <div className="profile-xfCcC">
+                  <p className="profile-1_mtk">
+                    <span>44899d5d1</span>
+                  </p>
+                  <p className="profile-1UP72">
+                    <i className="iconfont icon-shouji"></i>
+                    <span>183****0481</span>
+                  </p>
+                </div>
+                <span className="profile-2XuMq">
+                  <i className="iconfont icon-xiangyou"></i>
+                </span>
               </div>
-              <div className="profile-xfCcC">
-                <p className="profile-1_mtk">
-                  <span>44899d5d1</span>
-                </p>
-                <p className="profile-1UP72">
-                  <i className="iconfont icon-shouji"></i>
-                  <span>183****0481</span>
-                </p>
-              </div>
-              <span className="profile-2XuMq">
-                <i className="iconfont icon-xiangyou"></i>
-              </span>
-            </div>
+            </Link>
           </section>
           <div data-spm="maininfo" className="index-1G7HV">
             <div className="index-1ryAh">

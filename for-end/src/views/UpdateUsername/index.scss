@@ -1,0 +1,32 @@
+@import '@/styles/common/px2rem.scss';
+.gao-username{
+  &-update{
+    height:px2rem(50);
+    background: white; 
+    margin-top:px2rem(20);
+    input{
+      height:px2rem(50);
+      border:none;
+      margin-left:px2rem(10);
+    }
+  }
+  &-info{
+    height:px2rem(40);
+    display:flex;
+    align-items: center;
+    font-size:px2rem(12);
+    color:#9999;
+    margin-left:px2rem(10);
+  }
+  &-sure{
+    display: inline-block;
+    height:px2rem(50);
+    width:px2rem(355);
+    margin:0 px2rem(10);
+    background: #c7c7c7;
+    text-align: center;
+    color:white;
+    line-height: px2rem(50);
+    border-radius: px2rem(5);
+  }
+}
