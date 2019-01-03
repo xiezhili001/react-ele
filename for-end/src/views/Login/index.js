@@ -2,9 +2,6 @@ import React from 'react';
 import './index.scss';
 import axios from 'axios';
 
-
-
-
 class Login extends React.Component {
   constructor(props) {
     super(props);
