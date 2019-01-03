@@ -1,4 +1,5 @@
 var express = require('express');
+var bodyParser = require('body-parser');
 var app = express();
 
 // 引入路由模块
@@ -10,6 +11,9 @@ var DetailCity =  require('./routes/detailCity.js')
 var HomePageGood =  require('./routes/homePageGood.js')
 var User =  require('./routes/user.js')
 
+
+app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.json());
 // 使用路由模块，中间件
 app.use('/api/film/', FilmRouter);
 app.use('/api/detail/', DetailRouter);

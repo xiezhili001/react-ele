@@ -1,51 +1,40 @@
-// 专门处理影片相关的接口
+// 处理短信相关
 var express = require('express');
 var router = express.Router();
-var MongoClient = require('mongodb').MongoClient;
-var url = 'mongodb://127.0.0.1:27017/';
+var fs = require('fs');
+var path = require('path');
+var codes = require('../codes/code.json');
+var sms = require('../api/message');
 
 
-// 获取影片列表  location:3000/api/detail/list
-router.get('/', function (req, res) {
-  var userName = req.query.userName;
-  var age = parseInt(req.query.password);
+router.post('/', (req, res, next) => {
+  let phone = req.body.phone;
 
-  MongoClient.connect(url, {
-    useNewUrlParser: true
-  }, function (err, client) {
-    if (err) {
-      // 直接返回错误
-      console.log('链接数据库失败', err);
-      res.json({
-        code: 1,
-        msg: '网络异常, 请稍候重试'
-      })
-    } else {
+  if (phone) {
+    let code = sms.randomCode(4);
+    sms.sendCode(phone, code, function(success) {
 
-      var db = client.db('maizuo');
-
-      db.collection('user').find({
-        name: userName,
-        age: age
-      }).count(function (err, num) {
-        if (err) {
-          res.json({
-            code: 1,
-            msg: '网络异常, 请稍候重试'
-          })
-        } else {
-          res.json({
-            code: 0,
-            msg: 'OK',
-            data: num
-          })
-
-        }
-      })
-      client.close();
-    }
-  })
+      // 肯定发送成功
+      codes[phone] = code;
+      // console.log(codes);
+      try {
+        fs.writeFileSync(path.resolve(__dirname, '../codes/code.json'), JSON.stringify(codes));
+        res.send({msg: '成功111', body:{codes:code,phonenum:phone}});
+      } catch (error) {
+        res.send("失败");
+      }
+    })
+  }
 })
+
+// // 登录
+// router.post('/', (req, res, next) => {
+//   let phone = req.query.phone;
+//   let code = req.query.code;
+//   console.log(111111111111);
+//   // if (phone)
+// })
+
 
 
 module.exports = router;
