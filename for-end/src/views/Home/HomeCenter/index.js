@@ -42,7 +42,7 @@ class HomeCenter extends React.Component {
                 </p>
               </div>
               <span className="profile-2XuMq">
-                <i className="iconfont icon-xiangyou"></i>
+                <i className="iconfont">＞</i>
               </span>
             </div>
           </section>
@@ -108,7 +108,7 @@ class HomeCenter extends React.Component {
               <div className="index-yydpu">
                 我的地址
                 <span className="index-3Z8It">
-                  <i className="iconfont icon-xiangyou"></i>
+                  <i className="iconfont ">＞</i>
                 </span>
               </div>
             </div>
