@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { SearchBar } from 'antd-mobile';
 import './index.scss'
 import store from '../../store';
-import JSON from './cityDetail.json'
+import axios from 'axios';
 
 export default class City extends Component {
   constructor(props) {
@@ -11,6 +11,7 @@ export default class City extends Component {
     // 这个地方只是默认从仓库中拿取数据。而仓库发生了变化，这行代码不会重复的执行
     this.state = {
       myCity: store.getState().city.curCity,
+      detailCity:[]
     }
 
     this.unsubscribe=store.subscribe(() => {
@@ -41,13 +42,19 @@ export default class City extends Component {
     this.props.history.replace('/films')
   }
 
+  componentWillMount(){
+    axios.get("/api/detailCity/list").then(res=>{
+      this.setState({
+        detailCity:res.data.data.films
+      })
+    })
+  }
   componentWillUnmount(){
     this.unsubscribe();
   }
   render() {
     return (
       <div className="lv-cityDetail">
-
         <header>
           <i className="iconfont icon-fanhui" onClick={this.goBack.bind(this)}></i>
          选择收货地址
@@ -58,15 +65,13 @@ export default class City extends Component {
         </div>
         <ul className="all-cinemas">
           {
-            JSON.map(item => {
+            this.state.detailCity.map(item => {
               return (
                   <li className="cinemas-list-item" key={item.request_id} onClick={this.goBack.bind(this,item.short_address)}>
-
                     <div className="cinema-info-lf cinema-info">
                       <p className="cinema-name">{item.name}</p>
                       <p className="cinema-address">{item.address}</p>
                     </div>
-
                     <div className="cinema-info-rt cinema-info">
                      {item.distance}
                     </div>
@@ -75,7 +80,7 @@ export default class City extends Component {
               )
             })
           }
-        </ul>
+        </ul> 
       </div>
     )
   }
