@@ -74,3 +74,37 @@
     }
   }
 }
+.nodatatipWrap[data-v-1ec2d114] {
+  margin-top: px2rem(100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    display: block;
+    width: px2rem(200);
+  }
+  h3 {
+    margin: px2rem(13) 0 px2rem(10);
+    color: #6a6a6a;
+    font-weight: 400;
+    font-size: px2rem(17);
+  }
+  button{
+    padding: px2rem(10);
+    min-width: px2rem(120);
+    border: none;
+    border-radius: px2rem(2);
+    background-color: #56d176;
+    color: #fff;
+    text-align: center;
+    font-size: px2rem(16);
+    font-family: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+  }
+}
