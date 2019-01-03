@@ -11,9 +11,11 @@ class UpdateUsername extends Component {
 
   changeUser() {
     let userInfo = JSON.parse(localStorage.getItem('userInfo'));
-    userInfo[0].userName = this.state.inpVal;
-    let user = JSON.stringify(userInfo);
-    localStorage.setItem("userInfo", user);
+    if (this.state.inpVal) {
+      userInfo[0].userName = this.state.inpVal;
+      let user = JSON.stringify(userInfo);
+      localStorage.setItem("userInfo", user);
+    }
   }
   inputInfo(e) {
     this.setState({

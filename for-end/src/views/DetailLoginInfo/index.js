@@ -11,7 +11,6 @@ class DetailLoginInfo extends Component {
   componentWillMount() {
     let userInfo = localStorage.getItem("userInfo");
     let userInfo1 = JSON.parse(userInfo);
-    console.log(userInfo1);
     this.setState({
       user: userInfo1
     })
