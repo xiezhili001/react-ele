@@ -17,7 +17,7 @@ export default class Order extends Component {
       <div>
         <div className=''>
             {/* 单品宣传轮播图 */}
-            <div className='publicity'>
+            <div className='publicityaa'>
               <Carousel
                 autoplay={true}
                 infinite

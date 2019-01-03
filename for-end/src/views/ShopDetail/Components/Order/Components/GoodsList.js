@@ -197,10 +197,14 @@ export default class GoodsList extends Component {
             <div className='goods-pic'><img src='//fuss10.elemecdn.com/2/8c/f48d207e6b18dc7b21012d5e6a3fajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/' alt='elem'/></div>
             <div className='goods-det'><h2>麦乐鸡5块</h2><p>不素之霸双层牛堡1份 双层深海狭鳕鱼堡1份 川辣双鸡堡1份 那么大鸡排1块 麦乐鸡5块 那么大鲜柠特饮可乐 3*660ml</p><span>月售13份</span><h3><span>￥89</span><i className='iconfont icon-jia'></i></h3></div>
           </dd>
-
-
-
-
+          <dd>
+            <div className='goods-pic'><img src='//fuss10.elemecdn.com/2/8c/f48d207e6b18dc7b21012d5e6a3fajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/' alt='elem'/></div>
+            <div className='goods-det'><h2>麦乐鸡5块</h2><p>不素之霸双层牛堡1份 双层深海狭鳕鱼堡1份 川辣双鸡堡1份 那么大鸡排1块 麦乐鸡5块 那么大鲜柠特饮可乐 3*660ml</p><span>月售13份</span><h3><span>￥89</span><i className='iconfont icon-jia'></i></h3></div>
+          </dd>
+          <dd>
+            <div className='goods-pic'><img src='//fuss10.elemecdn.com/2/8c/f48d207e6b18dc7b21012d5e6a3fajpeg.jpeg?imageMogr/format/webp/thumbnail/!140x140r/gravity/Center/crop/140x140/' alt='elem'/></div>
+            <div className='goods-det'><h2>麦乐鸡5块</h2><p>不素之霸双层牛堡1份 双层深海狭鳕鱼堡1份 川辣双鸡堡1份 那么大鸡排1块 麦乐鸡5块 那么大鲜柠特饮可乐 3*660ml</p><span>月售13份</span><h3><span>￥89</span><i className='iconfont icon-jia'></i></h3></div>
+          </dd>
         </dl>
       </div>
     </div>
