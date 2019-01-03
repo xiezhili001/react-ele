@@ -41,6 +41,7 @@ class Login extends React.Component {
     if (this.state.code === this.state.codes) {
       // console.log("登录成功")
       this.props.history.replace('/center');
+      localStorage.setItem("username",this.state.phone);
     }
   }
 

@@ -3,6 +3,24 @@ import { Link } from 'react-router-dom';
 import './index.scss';
 
 class HomeCenter extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      username:''
+    }
+  }
+  componentDidMount () {
+    if (localStorage.getItem("username") === null) {
+      this.refs["xxoo"].style.display = "none";
+      this.refs["aabb"].style.display = "none";
+      this.refs["abab"].style.display = "none";
+    }else {
+      this.refs["ooxx"].style.display = "none";
+      this.refs["bbaa"].style.display = "none";
+      this.refs["baba"].style.display = "none";
+    }
+  }
+
   render() {
     return (
       <div className="center">
@@ -28,7 +46,38 @@ class HomeCenter extends React.Component {
               </div>
             </Link>
           </section>
-          <div data-spm="maininfo" className="index-1G7HV">
+          {/* 这里写未登录时需要引入的组件 */}
+          <div data-spm="maininfo" className="index-1G7HV"  ref="ooxx" >
+            <div className="index-1ryAh">
+              <p>
+                <span className="index-2FmrF">
+                  <i className="iconfont icon-renminbi2"></i>
+                </span>
+                {/* <span className="index-2V-Hh">元</span> */}
+              </p>
+              <p className="index-3S6cZ">钱包</p>
+            </div>
+            <div className="index-1ryAh">
+              <p>
+                <span className="index-2FmrF red">
+                <i className="iconfont icon-hongbao"></i>
+                </span>
+                {/* <span className="index-2V-Hh red">个</span> */}
+              </p>
+              <p className="index-3S6cZ">红包</p>
+            </div>
+            <div className="index-1ryAh">
+              <p>
+                <span className="index-2FmrF green">
+                <i className="iconfont icon-qian2"></i>
+                </span>
+                {/* <span className="index-2V-Hh green">个</span> */}
+              </p>
+              <p className="index-3S6cZ">金币</p>
+            </div>
+          </div>
+          {/* --------------------------------------- */}
+          <div data-spm="maininfo" className="index-1G7HV" ref="xxoo" >
             <div className="index-1ryAh">
               <p>
                 <span className="index-2FmrF">0.00</span>
