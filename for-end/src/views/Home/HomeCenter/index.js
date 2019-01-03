@@ -73,7 +73,7 @@ class HomeCenter extends React.Component {
               </div>
             </div>
             <div className="index-2MEEn">
-            <div className="index-161Mm">
+              <div className="index-161Mm">
                 <i className="iconfont icon-liwulipinjiangpin gift"></i>
               </div>
               <div className="index-yydpu">
@@ -89,7 +89,7 @@ class HomeCenter extends React.Component {
                 <i className="iconfont icon-wodekefu address"></i>
               </div>
               <div className="index-yydpu">
-            我的客服
+                我的客服
                 <span className="index-3Z8It"></span>
               </div>
             </div>
@@ -98,7 +98,7 @@ class HomeCenter extends React.Component {
                 <i className="iconfont icon-changyonglogo40 address"></i>
               </div>
               <div className="index-yydpu">
-              下载饿了么APP
+                下载饿了么APP
                 <span className="index-3Z8It"></span>
               </div>
             </div>
