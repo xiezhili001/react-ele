@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './index.scss';
 class UpdateUsername extends Component {
   constructor(props) {
@@ -16,6 +15,7 @@ class UpdateUsername extends Component {
       let user = JSON.stringify(userInfo);
       localStorage.setItem("userInfo", user);
     }
+    this.props.history.replace("/center");
   }
   inputInfo(e) {
     this.setState({
@@ -32,9 +32,9 @@ class UpdateUsername extends Component {
         <div className="gao-username-info">
           <p>用户名只能修改一次(5-24个字)</p>
         </div>
-        <Link className="gao-username-sure" to="detailLoginInfo" onClick={this.changeUser.bind(this)}>
+        <div className="gao-username-sure" onClick={this.changeUser.bind(this)}>
           <p>确认修改</p>
-        </Link>
+        </div>
       </div>
     )
   }
