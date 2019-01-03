@@ -18,5 +18,5 @@ app.use('/api/detailCity/', DetailCity);
 
 
 
-app.listen(3000);
+app.listen(8080);
 console.log('服务启动成功');
