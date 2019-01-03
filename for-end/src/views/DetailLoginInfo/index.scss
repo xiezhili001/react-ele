@@ -1,0 +1,57 @@
+@import '@/styles/common/px2rem.scss';
+.gao-logininfo{
+  &-username,&-iphone,&-pwd{
+    height:px2rem(50);
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 px2rem(15);
+    font-weight: 600;
+  }
+  &-count,&-curity{
+    height:px2rem(40);
+    padding:0 px2rem(15);
+    color:#999;
+    font-size: px2rem(12);
+    display: flex;
+    align-items: center;
+  }
+  &-username{
+    p:nth-child(2){
+      color:#666;
+      font-weight: 500;
+    }
+  }
+  &-iphone{
+    p:nth-child(1){
+      i{
+      color:#0097ff;
+      font-weight: 500;
+      }
+    }
+    p:nth-child(2){
+      color:#666;
+      font-weight: 500;
+    }
+  }
+  &-pwd{
+    a{
+      color:#0097ff;
+      font-weight: 500;
+      i{
+      color:#666;
+      }
+    }
+  }
+  &-logout{
+    height:px2rem(50);
+    background: white;
+    margin-top:px2rem(20); 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:#ff5339;
+    font-weight: 700;
+  }
+}
