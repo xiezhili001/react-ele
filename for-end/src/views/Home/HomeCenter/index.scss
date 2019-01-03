@@ -38,6 +38,11 @@
           font-weight: 700;
           display: flex;
           align-items: center;
+          span:nth-child(2){
+            a{
+              color:white;
+            }
+          }
         }
         .profile-1UP72{
           overflow: hidden;
@@ -57,8 +62,11 @@
         font-weight: 700;
         color: #fff;
         height: px2rem(21);
-        i{
-          font-size: px2rem(20);
+        a{
+          color:white;
+          i{
+            font-size: px2rem(20);
+          }
         }
       }
     }

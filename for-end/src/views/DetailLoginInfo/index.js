@@ -15,6 +15,13 @@ class DetailLoginInfo extends Component {
       user: userInfo1
     })
   }
+  loginOut() {
+    let username = JSON.parse(localStorage.getItem("username"));
+    username = "";
+    console.log(username);
+    JSON.stringify(localStorage.setItem("username", username));
+    this.props.history.push("/center");
+  }
   render() {
     return (
       this.state.user.map((item, index) => {
@@ -36,9 +43,9 @@ class DetailLoginInfo extends Component {
             </div>
             <div className="gao-logininfo-pwd">
               <p>登录密码</p>
-              <a href="111">修改<i className="iconfont icon-jiantou"></i></a>
+              <p>修改<i className="iconfont icon-jiantou"></i></p>
             </div>
-            <div className="gao-logininfo-logout">
+            <div className="gao-logininfo-logout" onClick={this.loginOut.bind(this)}>
               <p>退出登录</p>
             </div>
           </div>

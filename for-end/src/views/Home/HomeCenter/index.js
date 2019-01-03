@@ -6,18 +6,26 @@ class HomeCenter extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      username:''
+      username: '',
+      userInfoUser: ''
     }
   }
-  componentDidMount () {
-    if (localStorage.getItem("username") === null) {
+  componentDidMount() {
+    if (localStorage.getItem("username") === "") {
       this.refs["xxoo"].style.display = "none";
       this.refs["aabb"].style.display = "none";
       this.refs["abab"].style.display = "none";
-    }else {
+      this.refs["jiantou"].style.display = "none";
+    } else {
       this.refs["ooxx"].style.display = "none";
       this.refs["bbaa"].style.display = "none";
       this.refs["baba"].style.display = "none";
+      let userInfoName = JSON.parse(localStorage.getItem("userInfo"));
+      let userName = JSON.parse(localStorage.getItem("username"));
+      this.setState({
+        username: userName,
+        userInfoUser: userInfoName[0].userName
+      })
     }
   }
 
@@ -32,22 +40,22 @@ class HomeCenter extends React.Component {
               </div>
               <div className="profile-xfCcC">
                 <p className="profile-1_mtk">
-                  <span ref="abab" >44899d5d1</span>
-                  <span ref="baba" >登录/注册</span>
+                  <span ref="abab" >{this.state.userInfoUser}</span>
+                  <span ref="baba" ><Link to="login">登录/注册</Link></span>
                 </p>
                 <p className="profile-1UP72">
                   <i className="iconfont icon-shouji"></i>
-                  <span ref="aabb" >183****0481</span>
+                  <span ref="aabb" >{this.state.username}</span>
                   <span ref="bbaa" >登录后享受更多特权</span>
                 </p>
               </div>
-              <span className="profile-2XuMq">
-                <i className="iconfont">＞</i>
+              <span className="profile-2XuMq" ref="jiantou">
+                <Link to="detailLoginInfo"><i className="iconfont">＞</i></Link>
               </span>
             </div>
           </section>
           {/* 这里写未登录时需要引入的组件 */}
-          <div data-spm="maininfo" className="index-1G7HV"  ref="ooxx" >
+          <div data-spm="maininfo" className="index-1G7HV" ref="ooxx" >
             <div className="index-1ryAh">
               <p>
                 <span className="index-2FmrF">
@@ -60,7 +68,7 @@ class HomeCenter extends React.Component {
             <div className="index-1ryAh">
               <p>
                 <span className="index-2FmrF red">
-                <i className="iconfont icon-hongbao"></i>
+                  <i className="iconfont icon-hongbao"></i>
                 </span>
                 {/* <span className="index-2V-Hh red">个</span> */}
               </p>
@@ -69,7 +77,7 @@ class HomeCenter extends React.Component {
             <div className="index-1ryAh">
               <p>
                 <span className="index-2FmrF green">
-                <i className="iconfont icon-qian2"></i>
+                  <i className="iconfont icon-qian2"></i>
                 </span>
                 {/* <span className="index-2V-Hh green">个</span> */}
               </p>
@@ -124,7 +132,7 @@ class HomeCenter extends React.Component {
               </div>
             </div>
             <div className="index-2MEEn">
-            <div className="index-161Mm">
+              <div className="index-161Mm">
                 <i className="iconfont icon-liwulipinjiangpin gift"></i>
               </div>
               <div className="index-yydpu">
@@ -140,7 +148,7 @@ class HomeCenter extends React.Component {
                 <i className="iconfont icon-wodekefu address"></i>
               </div>
               <div className="index-yydpu">
-            我的客服
+                我的客服
                 <span className="index-3Z8It"></span>
               </div>
             </div>
@@ -149,7 +157,7 @@ class HomeCenter extends React.Component {
                 <i className="iconfont icon-changyonglogo40 address"></i>
               </div>
               <div className="index-yydpu">
-              下载饿了么APP
+                下载饿了么APP
                 <span className="index-3Z8It"></span>
               </div>
             </div>
