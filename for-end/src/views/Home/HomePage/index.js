@@ -15,7 +15,7 @@ class HomePage extends React.Component {
   constructor(props){
     super(props);
     this.state={
-      myCity: store.getState().city.curCity,
+      myCity: store.getState().detailCity.curCity,
       banner:[
         {
           'discribe':'麻辣烫',
@@ -100,21 +100,21 @@ class HomePage extends React.Component {
           'imgUrl':"https://fuss10.elemecdn.com/a/8a/ec21096d528b7cfd23cdd894f01c6jpeg.jpeg?imageMogr/format/webp/thumbnail/!90x90r/gravity/Center/crop/90x90/"
         }
       ],
-      list:[     
+      list:[
 
       ]
     }
-    store.subscribe(() => {
-      console.log('仓库发生了变化');
-      console.log(store.getState());
-      this.setState({
-        myCity: store.getState().city.curCity
-      })
-    })
+    // store.subscribe(() => {
+    //   console.log('仓库发生了变化');
+    //   console.log(store.getState());
+    //   this.setState({
+    //     myCity: store.getState().city.curCity
+    //   })
+    // })
   }
   getList(){
     axios.get("/api/homePageGood/list").then((res)=>{
-     
+
       console.log("进来了");
      var data=res.data.data.list;
       console.log(res.data.data.list);
@@ -125,14 +125,14 @@ class HomePage extends React.Component {
     })
   }
 componentWillMount(){
-  
+
   this.getList();
 }
 
 
 
   render() {
-    let zlCity = this.state.myCity || '北京市'
+    let zlCity = this.state.myCity || '保安大道'
     return (
       <div className="hungry">
       <div className="header">
