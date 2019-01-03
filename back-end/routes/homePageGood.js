@@ -67,7 +67,7 @@ router.get('/list', function (req, res) {
             code: 0,
             msg: 'OK',
             data: {
-              films: data,
+              list: data,
             }
 
 
