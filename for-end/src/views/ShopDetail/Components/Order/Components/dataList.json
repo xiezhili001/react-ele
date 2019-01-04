@@ -1,0 +1,2821 @@
+[
+  {
+    "products": [
+      {
+        "name": "起士大亨",
+        "month_sales_count": "70",
+        "score": "4.22",
+        "comments_count": "23",
+        "pid": "200000187806209793",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/6/ca/9d58e2b9db151cf9db845ca2b125fjpeg.jpeg"
+        ],
+        "recommends_count": "23",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "起士大亨",
+            "original_price": "8",
+            "stock": "9654",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "一颗柠檬茶(冷)-超级杯",
+        "month_sales_count": "65",
+        "score": "4.15",
+        "comments_count": "13",
+        "pid": "200000187802670849",
+        "desc": "",
+        "price": "13元起",
+        "images": [
+          "https://fuss10.elemecdn.com/6/70/0e31162128571a212b9ec16fbcc25jpeg.jpeg"
+        ],
+        "recommends_count": "13",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "13",
+            "sku": "一颗柠檬茶(冷)-超级杯 一颗柠檬茶(冷)-超级杯",
+            "original_price": "13",
+            "stock": "9302",
+            "packing_fee": "0"
+          },
+          {
+            "price": "13",
+            "sku": "一颗柠檬茶(冷)-超级杯 默认",
+            "original_price": "13",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "一颗柠檬茶(热)-超级杯",
+        "month_sales_count": "63",
+        "score": "4.17",
+        "comments_count": "12",
+        "pid": "200000187802664705",
+        "desc": "",
+        "price": "13元起",
+        "images": [
+          "https://fuss10.elemecdn.com/6/70/0e31162128571a212b9ec16fbcc25jpeg.jpeg"
+        ],
+        "recommends_count": "12",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "13",
+            "sku": "一颗柠檬茶(热)-超级杯 一颗柠檬茶(热)-超级杯",
+            "original_price": "13",
+            "stock": "9873",
+            "packing_fee": "0"
+          },
+          {
+            "price": "13",
+            "sku": "一颗柠檬茶(热)-超级杯 默认",
+            "original_price": "13",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "经典85咖啡(热)-大杯",
+        "month_sales_count": "45",
+        "score": "4.12",
+        "comments_count": "17",
+        "pid": "200000187797940993",
+        "desc": "",
+        "price": "14元起",
+        "images": [
+          "https://fuss10.elemecdn.com/2/6f/006e216af136dc04ead522d499843jpeg.jpeg"
+        ],
+        "recommends_count": "17",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "14",
+            "sku": "经典85咖啡(热)-大杯 经典85咖啡(热)-大杯",
+            "original_price": "14",
+            "stock": "9773",
+            "packing_fee": "0"
+          },
+          {
+            "price": "14",
+            "sku": "经典85咖啡(热)-大杯 默认",
+            "original_price": "14",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "松子核桃米浆(热)-中杯",
+        "month_sales_count": "45",
+        "score": "4.25",
+        "comments_count": "12",
+        "pid": "200000187798187777",
+        "desc": "",
+        "price": "10元起",
+        "images": [
+          "https://fuss10.elemecdn.com/4/10/f809d74da9085b6fa1cfd84dbd055jpeg.jpeg"
+        ],
+        "recommends_count": "12",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "10",
+            "sku": "松子核桃米浆(热)-中杯 松子核桃米浆(热)-中杯",
+            "original_price": "10",
+            "stock": "9852",
+            "packing_fee": "0"
+          },
+          {
+            "price": "10",
+            "sku": "松子核桃米浆(热)-中杯 默认",
+            "original_price": "10",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "珍珠奶茶(热)-大杯",
+        "month_sales_count": "40",
+        "score": "4.44",
+        "comments_count": "16",
+        "pid": "200000187798013697",
+        "desc": "",
+        "price": "9元起",
+        "images": [
+          "https://fuss10.elemecdn.com/f/9e/fbe288d942ab50597a799e52b5376jpeg.jpeg"
+        ],
+        "recommends_count": "16",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "9",
+            "sku": "珍珠奶茶(热)-大杯 珍珠奶茶(热)-大杯",
+            "original_price": "9",
+            "stock": "9866",
+            "packing_fee": "0"
+          },
+          {
+            "price": "9",
+            "sku": "珍珠奶茶(热)-大杯 默认",
+            "original_price": "9",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "凯萨大帝",
+        "month_sales_count": "37",
+        "score": "4.36",
+        "comments_count": "14",
+        "pid": "200000187797757697",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/0/49/366e056e7612fbe71d3b363d23981jpeg.jpeg"
+        ],
+        "recommends_count": "14",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "凯萨大帝",
+            "original_price": "8",
+            "stock": "9758",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "花式热狗",
+        "month_sales_count": "31",
+        "score": "4.54",
+        "comments_count": "13",
+        "pid": "200000187797694209",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/9/fc/8a1792a8f63efe45d8c719c9a1bdejpeg.jpeg"
+        ],
+        "recommends_count": "13",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "花式热狗",
+            "original_price": "8",
+            "stock": "9818",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "多拿滋(3入)",
+        "month_sales_count": "28",
+        "score": "4.21",
+        "comments_count": "14",
+        "pid": "200000187797853953",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/0/96/179d78fc48c7bc548125ef87f0982jpeg.jpeg"
+        ],
+        "recommends_count": "14",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "多拿滋(3入)",
+            "original_price": "12",
+            "stock": "9922",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "多拿滋",
+        "month_sales_count": "27",
+        "score": "4.09",
+        "comments_count": "11",
+        "pid": "200000187797811969",
+        "desc": "",
+        "price": "5元起",
+        "images": [
+          "https://fuss10.elemecdn.com/0/96/179d78fc48c7bc548125ef87f0982jpeg.jpeg"
+        ],
+        "recommends_count": "11",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "5",
+            "sku": "多拿滋",
+            "original_price": "5",
+            "stock": "9905",
+            "packing_fee": "0"
+          }
+        ]
+      }
+    ],
+    "category": "热销"
+  },
+  {
+    "products": [
+      {
+        "name": "大阪烧",
+        "month_sales_count": "14",
+        "score": "4.2",
+        "comments_count": "5",
+        "pid": "200000187801834241",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/8/61/73203b97e5e4262b0c7faf6935e5ejpeg.jpeg"
+        ],
+        "recommends_count": "5",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "大阪烧",
+            "original_price": "8",
+            "stock": "9915",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "起士大亨",
+        "month_sales_count": "70",
+        "score": "4.22",
+        "comments_count": "23",
+        "pid": "200000187806209793",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/6/ca/9d58e2b9db151cf9db845ca2b125fjpeg.jpeg"
+        ],
+        "recommends_count": "23",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "起士大亨",
+            "original_price": "8",
+            "stock": "9654",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "法式奶油烧",
+        "month_sales_count": "17",
+        "score": "4",
+        "comments_count": "3",
+        "pid": "200000187801882369",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/4/3f/bc5af461304d5370a742ffa4edae2jpeg.jpeg"
+        ],
+        "recommends_count": "3",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "法式奶油烧",
+            "original_price": "8",
+            "stock": "9882",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "皮利卡",
+        "month_sales_count": "9",
+        "score": "4.5",
+        "comments_count": "2",
+        "pid": "200000187797672705",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/b/82/5f5f477846aecb0072d3d34f0a39bjpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "皮利卡",
+            "original_price": "8",
+            "stock": "9941",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "黑谷物核果",
+        "month_sales_count": "12",
+        "score": "4",
+        "comments_count": "3",
+        "pid": "200000187801926401",
+        "desc": "",
+        "price": "9元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/b6/8a4cdeaed212157e26383a80c3781jpeg.jpeg"
+        ],
+        "recommends_count": "3",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "9",
+            "sku": "黑谷物核果",
+            "original_price": "9",
+            "stock": "9905",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "花式热狗",
+        "month_sales_count": "31",
+        "score": "4.54",
+        "comments_count": "13",
+        "pid": "200000187797694209",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/9/fc/8a1792a8f63efe45d8c719c9a1bdejpeg.jpeg"
+        ],
+        "recommends_count": "13",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "花式热狗",
+            "original_price": "8",
+            "stock": "9818",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "高纤核果面包",
+        "month_sales_count": "8",
+        "score": "4",
+        "comments_count": "2",
+        "pid": "200000187806247681",
+        "desc": "",
+        "price": "11元起",
+        "images": [
+          "https://fuss10.elemecdn.com/5/13/6521faadc8c18d6cad945418a52a8jpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "11",
+            "sku": "高纤核果面包",
+            "original_price": "11",
+            "stock": "9910",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "切达乳酪厚片",
+        "month_sales_count": "12",
+        "score": "4",
+        "comments_count": "2",
+        "pid": "200000187806249729",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/a/b2/b8a17f6f158c167c47d1a67530914jpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "切达乳酪厚片",
+            "original_price": "8",
+            "stock": "9894",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "熏鸡酥松面包",
+        "month_sales_count": "9",
+        "score": "4.33",
+        "comments_count": "3",
+        "pid": "200000187806257921",
+        "desc": "",
+        "price": "11元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/ab/e9162026bf5d1860d01bb3b4c7cc8jpeg.jpeg"
+        ],
+        "recommends_count": "3",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "11",
+            "sku": "熏鸡酥松面包",
+            "original_price": "11",
+            "stock": "9897",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "咖啡奶酥可颂",
+        "month_sales_count": "19",
+        "score": "4.36",
+        "comments_count": "11",
+        "pid": "200000187797711617",
+        "desc": "",
+        "price": "10元起",
+        "images": [
+          "https://fuss10.elemecdn.com/5/fa/84cb022e7b0220b79dbad65657508jpeg.jpeg"
+        ],
+        "recommends_count": "11",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "10",
+            "sku": "咖啡奶酥可颂",
+            "original_price": "10",
+            "stock": "9862",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "巧克力森林多拿滋",
+        "month_sales_count": "1",
+        "score": "4",
+        "comments_count": "1",
+        "pid": "200000187794194177",
+        "desc": "",
+        "price": "7元起",
+        "images": [
+          "https://fuss10.elemecdn.com/1/76/76eec71cb9ce9a092a8325a2ac4ecjpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "7",
+            "sku": "巧克力森林多拿滋",
+            "original_price": "7",
+            "stock": "9988",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "热狗可颂",
+        "month_sales_count": "10",
+        "score": "4.67",
+        "comments_count": "3",
+        "pid": "200000187794198273",
+        "desc": "",
+        "price": "10元起",
+        "images": [
+          "https://fuss10.elemecdn.com/5/7e/8da4c16f2333effab08d1ea9c9119jpeg.jpeg"
+        ],
+        "recommends_count": "3",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "10",
+            "sku": "热狗可颂",
+            "original_price": "10",
+            "stock": "9897",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "红豆多拿滋",
+        "month_sales_count": "13",
+        "score": "4.2",
+        "comments_count": "5",
+        "pid": "200000187797734145",
+        "desc": "",
+        "price": "7元起",
+        "images": [
+          "https://fuss10.elemecdn.com/a/1e/3db7dfe03cb9d6be581db1c4195b8jpeg.jpeg"
+        ],
+        "recommends_count": "5",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "7",
+            "sku": "红豆多拿滋",
+            "original_price": "7",
+            "stock": "9852",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "松松火腿条",
+        "month_sales_count": "9",
+        "score": "4.25",
+        "comments_count": "4",
+        "pid": "200000187802024705",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/4/62/e5c5f91732f8c7c31420711040720jpeg.jpeg"
+        ],
+        "recommends_count": "4",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "松松火腿条",
+            "original_price": "8",
+            "stock": "9958",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "菠萝可颂",
+        "month_sales_count": "25",
+        "score": "4.5",
+        "comments_count": "6",
+        "pid": "200000187802039041",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/7/71/96099160e7216732b7e2f17a2bf96jpeg.jpeg"
+        ],
+        "recommends_count": "6",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "菠萝可颂",
+            "original_price": "8",
+            "stock": "9896",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "凯萨大帝",
+        "month_sales_count": "37",
+        "score": "4.36",
+        "comments_count": "14",
+        "pid": "200000187797757697",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/0/49/366e056e7612fbe71d3b363d23981jpeg.jpeg"
+        ],
+        "recommends_count": "14",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "凯萨大帝",
+            "original_price": "8",
+            "stock": "9758",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "多拿滋(5入)",
+        "month_sales_count": "14",
+        "score": "4.2",
+        "comments_count": "5",
+        "pid": "200000187806322433",
+        "desc": "",
+        "price": "18元起",
+        "images": [
+          "https://fuss10.elemecdn.com/0/96/179d78fc48c7bc548125ef87f0982jpeg.jpeg"
+        ],
+        "recommends_count": "5",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "18",
+            "sku": "多拿滋(5入)",
+            "original_price": "18",
+            "stock": "9966",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "多拿滋",
+        "month_sales_count": "27",
+        "score": "4.09",
+        "comments_count": "11",
+        "pid": "200000187797811969",
+        "desc": "",
+        "price": "5元起",
+        "images": [
+          "https://fuss10.elemecdn.com/0/96/179d78fc48c7bc548125ef87f0982jpeg.jpeg"
+        ],
+        "recommends_count": "11",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "5",
+            "sku": "多拿滋",
+            "original_price": "5",
+            "stock": "9905",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "复兴起士",
+        "month_sales_count": "15",
+        "score": "4.8",
+        "comments_count": "5",
+        "pid": "200000187797820161",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/1/57/d8415433f2ef086c03cbf8dca5a6djpeg.jpeg"
+        ],
+        "recommends_count": "5",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "复兴起士",
+            "original_price": "8",
+            "stock": "9941",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "黄金金枪鱼",
+        "month_sales_count": "13",
+        "score": "4.33",
+        "comments_count": "3",
+        "pid": "200000187794295553",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/6/7d/26a0b89f5536c5dac1e6f320fcff3jpeg.jpeg"
+        ],
+        "recommends_count": "3",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "黄金金枪鱼",
+            "original_price": "8",
+            "stock": "9914",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "芝士百里香",
+        "month_sales_count": "22",
+        "score": "4.4",
+        "comments_count": "5",
+        "pid": "200000187802172161",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/a/99/2b8ac83788f58a6b8d3a43704abf3jpeg.jpeg"
+        ],
+        "recommends_count": "5",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "芝士百里香",
+            "original_price": "8",
+            "stock": "9854",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "牛角可颂",
+        "month_sales_count": "8",
+        "score": "4",
+        "comments_count": "3",
+        "pid": "200000187802193665",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/4/83/07c8d8149ccca16ec4a85a8b3407cjpeg.jpeg"
+        ],
+        "recommends_count": "3",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "牛角可颂",
+            "original_price": "8",
+            "stock": "9907",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "枫糖方块",
+        "month_sales_count": "18",
+        "score": "4.33",
+        "comments_count": "6",
+        "pid": "200000187797844737",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/f/6d/3c66375f3ce2a4e7a9c8f6f9423d6jpeg.jpeg"
+        ],
+        "recommends_count": "6",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "枫糖方块",
+            "original_price": "8",
+            "stock": "9924",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "多拿滋(3入)",
+        "month_sales_count": "28",
+        "score": "4.21",
+        "comments_count": "14",
+        "pid": "200000187797853953",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/0/96/179d78fc48c7bc548125ef87f0982jpeg.jpeg"
+        ],
+        "recommends_count": "14",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "多拿滋(3入)",
+            "original_price": "12",
+            "stock": "9922",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "咖喱鸡肉多拿滋",
+        "month_sales_count": "10",
+        "score": "4",
+        "comments_count": "3",
+        "pid": "200000187806352129",
+        "desc": "",
+        "price": "7元起",
+        "images": [
+          "https://fuss10.elemecdn.com/0/0e/7b138d536060d27c1e2012720c75bjpeg.jpeg"
+        ],
+        "recommends_count": "3",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "7",
+            "sku": "咖喱鸡肉多拿滋",
+            "original_price": "7",
+            "stock": "9898",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "黄金酥松面包",
+        "month_sales_count": "8",
+        "score": "4.5",
+        "comments_count": "2",
+        "pid": "200000187797854977",
+        "desc": "",
+        "price": "8元起",
+        "images": [
+          "https://fuss10.elemecdn.com/2/08/1ea36c4f83bac179c706f673c985bjpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "8",
+            "sku": "黄金酥松面包",
+            "original_price": "8",
+            "stock": "9949",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "火腿活力蛋吐司",
+        "month_sales_count": "6",
+        "score": "4",
+        "comments_count": "2",
+        "pid": "200000187794327297",
+        "desc": "",
+        "price": "10元起",
+        "images": [
+          "https://fuss10.elemecdn.com/0/2c/03de1672430baa26755a01ff60b58jpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "10",
+            "sku": "火腿活力蛋吐司",
+            "original_price": "10",
+            "stock": "9960",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "奶酥菠萝可颂",
+        "month_sales_count": "10",
+        "score": "4.5",
+        "comments_count": "4",
+        "pid": "200000187797870337",
+        "desc": "",
+        "price": "9元起",
+        "images": [
+          "https://fuss10.elemecdn.com/6/5e/f8eea9a2ae4502d4f6cc1477b6a4fjpeg.jpeg"
+        ],
+        "recommends_count": "4",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "9",
+            "sku": "奶酥菠萝可颂",
+            "original_price": "9",
+            "stock": "9928",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "蜂蜜味芒果面包",
+        "month_sales_count": "9",
+        "score": "4",
+        "comments_count": "5",
+        "pid": "200000187801807617",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/7/38/eb932467ce5ebd238635bc3acb209jpeg.jpeg"
+        ],
+        "recommends_count": "5",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "蜂蜜味芒果面包",
+            "original_price": "12",
+            "stock": "9961",
+            "packing_fee": "0"
+          }
+        ]
+      }
+    ],
+    "category": "面包"
+  },
+  {
+    "products": [
+      {
+        "name": "香浓吐司(8片/袋)",
+        "month_sales_count": "19",
+        "score": "4.4",
+        "comments_count": "5",
+        "pid": "200000187794332417",
+        "desc": "",
+        "price": "14元起",
+        "images": [
+          "https://fuss10.elemecdn.com/f/0f/fa92781377ddc79c4ca8b49af3e1bjpeg.jpeg"
+        ],
+        "recommends_count": "5",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "14",
+            "sku": "香浓吐司(8片/袋)",
+            "original_price": "14",
+            "stock": "9902",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "白吐司(8片/袋)",
+        "month_sales_count": "12",
+        "score": "4",
+        "comments_count": "3",
+        "pid": "200000187802227457",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/a/99/1cf0e693be35aacb519e4b546acfcjpeg.jpeg"
+        ],
+        "recommends_count": "3",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "白吐司(8片/袋)",
+            "original_price": "12",
+            "stock": "9938",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "鲜奶吐司",
+        "month_sales_count": "26",
+        "score": "4.29",
+        "comments_count": "7",
+        "pid": "200000187806367489",
+        "desc": "",
+        "price": "13元起",
+        "images": [
+          "https://fuss10.elemecdn.com/4/ec/974f8659c8c24e40b1b0784320a5ajpeg.jpeg"
+        ],
+        "recommends_count": "7",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "13",
+            "sku": "鲜奶吐司",
+            "original_price": "13",
+            "stock": "9804",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "莱姆葡萄吐司",
+        "month_sales_count": "12",
+        "score": "4",
+        "comments_count": "3",
+        "pid": "200000187797878529",
+        "desc": "",
+        "price": "15元起",
+        "images": [
+          "https://fuss10.elemecdn.com/7/d4/5383eebe07876e26259f7808f6c47jpeg.jpeg"
+        ],
+        "recommends_count": "3",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "15",
+            "sku": "莱姆葡萄吐司",
+            "original_price": "15",
+            "stock": "9893",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "胚芽吐司",
+        "month_sales_count": "7",
+        "score": "4.5",
+        "comments_count": "2",
+        "pid": "200000187806371585",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/a/99/1cf0e693be35aacb519e4b546acfcjpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "胚芽吐司",
+            "original_price": "12",
+            "stock": "9947",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "蔓越莓吐司面包(四片)",
+        "month_sales_count": "6",
+        "score": "5",
+        "comments_count": "1",
+        "pid": "200000187797881601",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/f/21/a45a9777be9609d45225eed881ca4jpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "蔓越莓吐司面包(四片)",
+            "original_price": "12",
+            "stock": "9961",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "红豆可颂面包",
+        "month_sales_count": "4",
+        "score": "5",
+        "comments_count": "1",
+        "pid": "200000187794337537",
+        "desc": "",
+        "price": "22元起",
+        "images": [
+          "https://fuss10.elemecdn.com/7/e9/9081afac5dbfca6b07b0533a87b63jpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "22",
+            "sku": "红豆可颂面包",
+            "original_price": "22",
+            "stock": "9987",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "奶香可颂面包",
+        "month_sales_count": "15",
+        "score": "4.25",
+        "comments_count": "4",
+        "pid": "200000187802239745",
+        "desc": "",
+        "price": "20元起",
+        "images": [
+          "https://fuss10.elemecdn.com/2/a8/cf0cea59b178a93e630ac2dd00a76jpeg.jpeg"
+        ],
+        "recommends_count": "4",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "20",
+            "sku": "奶香可颂面包",
+            "original_price": "20",
+            "stock": "9938",
+            "packing_fee": "0"
+          }
+        ]
+      }
+    ],
+    "category": "吐司"
+  },
+  {
+    "products": [
+      {
+        "name": "红豆餐包面包",
+        "month_sales_count": "7",
+        "score": "4",
+        "comments_count": "3",
+        "pid": "200000187802243841",
+        "desc": "",
+        "price": "10元起",
+        "images": [
+          "https://fuss10.elemecdn.com/2/c0/21a72dd19a21bbc7beefb93d4f47ajpeg.jpeg"
+        ],
+        "recommends_count": "3",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "10",
+            "sku": "红豆餐包面包",
+            "original_price": "10",
+            "stock": "9964",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "牛奶方块",
+        "month_sales_count": "10",
+        "score": "4",
+        "comments_count": "2",
+        "pid": "200000187802244865",
+        "desc": "",
+        "price": "9元起",
+        "images": [
+          "https://fuss10.elemecdn.com/3/e3/3016da8ea6b11941eecafc1d39e3ejpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "9",
+            "sku": "牛奶方块",
+            "original_price": "9",
+            "stock": "9927",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "核桃餐包面包",
+        "month_sales_count": "3",
+        "score": "4.5",
+        "comments_count": "2",
+        "pid": "200000187797894913",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/8/36/086277bb4f59e93ba5e2f1341514cjpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "核桃餐包面包",
+            "original_price": "12",
+            "stock": "9986",
+            "packing_fee": "0"
+          }
+        ]
+      }
+    ],
+    "category": "预包装"
+  },
+  {
+    "products": [
+      {
+        "name": "醇粹美式咖啡(冷)-中杯",
+        "month_sales_count": "2",
+        "score": "4",
+        "comments_count": "1",
+        "pid": "200000187802255105",
+        "desc": "",
+        "price": "10元起",
+        "images": [
+          "https://fuss10.elemecdn.com/1/09/f6106b21e12d6ca502d8974511c02jpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "10",
+            "sku": "醇粹美式咖啡(冷)-中杯 醇粹美式咖啡(冷)-中杯",
+            "original_price": "10",
+            "stock": "9976",
+            "packing_fee": "0"
+          },
+          {
+            "price": "10",
+            "sku": "醇粹美式咖啡(冷)-中杯 默认",
+            "original_price": "10",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "醇粹美式咖啡(热)-中杯",
+        "month_sales_count": "8",
+        "score": "4",
+        "comments_count": "2",
+        "pid": "200000187802256129",
+        "desc": "",
+        "price": "10元起",
+        "images": [
+          "https://fuss10.elemecdn.com/1/09/f6106b21e12d6ca502d8974511c02jpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "10",
+            "sku": "醇粹美式咖啡(热)-中杯",
+            "original_price": "10",
+            "stock": "9979",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "醇粹美式咖啡(冷)-大杯",
+        "month_sales_count": "1",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187802259201",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/1/09/f6106b21e12d6ca502d8974511c02jpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "醇粹美式咖啡(冷)-大杯 醇粹美式咖啡(冷)-大杯",
+            "original_price": "12",
+            "stock": "9971",
+            "packing_fee": "0"
+          },
+          {
+            "price": "12",
+            "sku": "醇粹美式咖啡(冷)-大杯 默认",
+            "original_price": "12",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "醇粹美式咖啡(热)-大杯",
+        "month_sales_count": "11",
+        "score": "4",
+        "comments_count": "7",
+        "pid": "200000187802263297",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/1/09/f6106b21e12d6ca502d8974511c02jpeg.jpeg"
+        ],
+        "recommends_count": "7",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "醇粹美式咖啡(热)-大杯",
+            "original_price": "12",
+            "stock": "9963",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "海岩咖啡(冷)-中杯",
+        "month_sales_count": "3",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187802270465",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/a/45/fae571d16ef88054992cde2a0ef8bjpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "海岩咖啡(冷)-中杯 海岩咖啡(冷)-中杯",
+            "original_price": "12",
+            "stock": "9985",
+            "packing_fee": "0"
+          },
+          {
+            "price": "12",
+            "sku": "海岩咖啡(冷)-中杯 默认",
+            "original_price": "12",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "海岩咖啡(热)-中杯",
+        "month_sales_count": "5",
+        "score": "4",
+        "comments_count": "1",
+        "pid": "200000187794362113",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/a/45/fae571d16ef88054992cde2a0ef8bjpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "海岩咖啡(热)-中杯 海岩咖啡(热)-中杯",
+            "original_price": "12",
+            "stock": "9981",
+            "packing_fee": "0"
+          },
+          {
+            "price": "12",
+            "sku": "海岩咖啡(热)-中杯 默认",
+            "original_price": "12",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "海岩咖啡(冷)-大杯",
+        "month_sales_count": "1",
+        "score": "4",
+        "comments_count": "1",
+        "pid": "200000187802279681",
+        "desc": "",
+        "price": "14元起",
+        "images": [
+          "https://fuss10.elemecdn.com/a/45/fae571d16ef88054992cde2a0ef8bjpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "14",
+            "sku": "海岩咖啡(冷)-大杯 海岩咖啡(冷)-大杯",
+            "original_price": "14",
+            "stock": "9949",
+            "packing_fee": "0"
+          },
+          {
+            "price": "14",
+            "sku": "海岩咖啡(冷)-大杯 默认",
+            "original_price": "14",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "海岩咖啡(热)-大杯",
+        "month_sales_count": "11",
+        "score": "4",
+        "comments_count": "2",
+        "pid": "200000187802288897",
+        "desc": "",
+        "price": "14元起",
+        "images": [
+          "https://fuss10.elemecdn.com/a/45/fae571d16ef88054992cde2a0ef8bjpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "14",
+            "sku": "海岩咖啡(热)-大杯 海岩咖啡(热)-大杯",
+            "original_price": "14",
+            "stock": "9958",
+            "packing_fee": "0"
+          },
+          {
+            "price": "14",
+            "sku": "海岩咖啡(热)-大杯 默认",
+            "original_price": "14",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "经典85咖啡(冷)-中杯",
+        "month_sales_count": "1",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187802297089",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/2/6f/006e216af136dc04ead522d499843jpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "经典85咖啡(冷)-中杯 经典85咖啡(冷)-中杯",
+            "original_price": "12",
+            "stock": "9969",
+            "packing_fee": "0"
+          },
+          {
+            "price": "12",
+            "sku": "经典85咖啡(冷)-中杯 默认",
+            "original_price": "12",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "经典85咖啡(热)-中杯",
+        "month_sales_count": "15",
+        "score": "4.14",
+        "comments_count": "7",
+        "pid": "200000187794381569",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/2/6f/006e216af136dc04ead522d499843jpeg.jpeg"
+        ],
+        "recommends_count": "7",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "经典85咖啡(热)-中杯 经典85咖啡(热)-中杯",
+            "original_price": "12",
+            "stock": "9908",
+            "packing_fee": "0"
+          },
+          {
+            "price": "12",
+            "sku": "经典85咖啡(热)-中杯 默认",
+            "original_price": "12",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "经典85咖啡(冷)-大杯",
+        "month_sales_count": "7",
+        "score": "4",
+        "comments_count": "3",
+        "pid": "200000187806421761",
+        "desc": "",
+        "price": "14元起",
+        "images": [
+          "https://fuss10.elemecdn.com/2/6f/006e216af136dc04ead522d499843jpeg.jpeg"
+        ],
+        "recommends_count": "3",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "14",
+            "sku": "经典85咖啡(冷)-大杯 经典85咖啡(冷)-大杯",
+            "original_price": "14",
+            "stock": "9820",
+            "packing_fee": "0"
+          },
+          {
+            "price": "14",
+            "sku": "经典85咖啡(冷)-大杯 默认",
+            "original_price": "14",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "经典85咖啡(热)-大杯",
+        "month_sales_count": "45",
+        "score": "4.12",
+        "comments_count": "17",
+        "pid": "200000187797940993",
+        "desc": "",
+        "price": "14元起",
+        "images": [
+          "https://fuss10.elemecdn.com/2/6f/006e216af136dc04ead522d499843jpeg.jpeg"
+        ],
+        "recommends_count": "17",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "14",
+            "sku": "经典85咖啡(热)-大杯 经典85咖啡(热)-大杯",
+            "original_price": "14",
+            "stock": "9773",
+            "packing_fee": "0"
+          },
+          {
+            "price": "14",
+            "sku": "经典85咖啡(热)-大杯 默认",
+            "original_price": "14",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "黑糖玛奇朵(冷)-中杯",
+        "month_sales_count": "1",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187797949185",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/f/d3/59affa8162ba11eb0a59191962e28jpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "黑糖玛奇朵(冷)-中杯 黑糖玛奇朵(冷)-中杯",
+            "original_price": "12",
+            "stock": "9991",
+            "packing_fee": "0"
+          },
+          {
+            "price": "12",
+            "sku": "黑糖玛奇朵(冷)-中杯 默认",
+            "original_price": "12",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "黑糖玛奇朵(热)-中杯",
+        "month_sales_count": "1",
+        "score": "4",
+        "comments_count": "1",
+        "pid": "200000187806433025",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/f/d3/59affa8162ba11eb0a59191962e28jpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "黑糖玛奇朵(热)-中杯",
+            "original_price": "12",
+            "stock": "9981",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "黑糖玛奇朵(冷)-大杯",
+        "month_sales_count": "3",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187802342145",
+        "desc": "",
+        "price": "14元起",
+        "images": [
+          "https://fuss10.elemecdn.com/f/d3/59affa8162ba11eb0a59191962e28jpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "14",
+            "sku": "黑糖玛奇朵(冷)-大杯 黑糖玛奇朵(冷)-大杯",
+            "original_price": "14",
+            "stock": "9949",
+            "packing_fee": "0"
+          },
+          {
+            "price": "14",
+            "sku": "黑糖玛奇朵(冷)-大杯 默认",
+            "original_price": "14",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "黑糖玛奇朵(热)-大杯",
+        "month_sales_count": "13",
+        "score": "4",
+        "comments_count": "2",
+        "pid": "200000187802349313",
+        "desc": "",
+        "price": "14元起",
+        "images": [
+          "https://fuss10.elemecdn.com/f/d3/59affa8162ba11eb0a59191962e28jpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "14",
+            "sku": "黑糖玛奇朵(热)-大杯",
+            "original_price": "14",
+            "stock": "9970",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "焦糖玛奇朵(热)-中杯",
+        "month_sales_count": "2",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187802352385",
+        "desc": "",
+        "price": "16元起",
+        "images": [
+          "https://fuss10.elemecdn.com/9/63/140f62bcb03c477c50edd67f89b93jpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "16",
+            "sku": "焦糖玛奇朵(热)-中杯",
+            "original_price": "16",
+            "stock": "9992",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "焦糖玛奇朵(热)-大杯",
+        "month_sales_count": "6",
+        "score": "4.67",
+        "comments_count": "3",
+        "pid": "200000187802359553",
+        "desc": "",
+        "price": "18元起",
+        "images": [
+          "https://fuss10.elemecdn.com/6/6a/0665c20a297aea54f38f2cc3266abjpeg.jpeg"
+        ],
+        "recommends_count": "3",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "18",
+            "sku": "焦糖玛奇朵(热)-大杯",
+            "original_price": "18",
+            "stock": "9975",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "醇粹拿铁咖啡(冷)-中杯",
+        "month_sales_count": "1",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000242502316801",
+        "desc": "",
+        "price": "15元起",
+        "images": [
+          "https://fuss10.elemecdn.com/d/c9/e76fd770070cbe12d4c3a77c31815jpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "15",
+            "sku": "醇粹拿铁咖啡(冷)-中杯 醇粹拿铁咖啡(冷)-中杯",
+            "original_price": "15",
+            "stock": "9990",
+            "packing_fee": "0"
+          },
+          {
+            "price": "15",
+            "sku": "醇粹拿铁咖啡(冷)-中杯 默认",
+            "original_price": "15",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "醇粹拿铁咖啡(冷)-大杯",
+        "month_sales_count": "2",
+        "score": "5",
+        "comments_count": "1",
+        "pid": "200000242513829633",
+        "desc": "",
+        "price": "17元起",
+        "images": [
+          "https://fuss10.elemecdn.com/d/c9/e76fd770070cbe12d4c3a77c31815jpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "17",
+            "sku": "醇粹拿铁咖啡(冷)-大杯 醇粹拿铁咖啡(冷)-大杯",
+            "original_price": "17",
+            "stock": "9981",
+            "packing_fee": "0"
+          },
+          {
+            "price": "17",
+            "sku": "醇粹拿铁咖啡(冷)-大杯 默认",
+            "original_price": "17",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      }
+    ],
+    "category": "咖啡"
+  },
+  {
+    "products": [
+      {
+        "name": "珍珠奶茶(冷)-大杯",
+        "month_sales_count": "9",
+        "score": "4",
+        "comments_count": "2",
+        "pid": "200000187794429697",
+        "desc": "",
+        "price": "9元起",
+        "images": [
+          "https://fuss10.elemecdn.com/f/9e/fbe288d942ab50597a799e52b5376jpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "9",
+            "sku": "珍珠奶茶(冷)-大杯 珍珠奶茶(冷)-大杯",
+            "original_price": "9",
+            "stock": "9865",
+            "packing_fee": "0"
+          },
+          {
+            "price": "9",
+            "sku": "珍珠奶茶(冷)-大杯 默认",
+            "original_price": "9",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "珍珠奶茶(热)-大杯",
+        "month_sales_count": "40",
+        "score": "4.44",
+        "comments_count": "16",
+        "pid": "200000187798013697",
+        "desc": "",
+        "price": "9元起",
+        "images": [
+          "https://fuss10.elemecdn.com/f/9e/fbe288d942ab50597a799e52b5376jpeg.jpeg"
+        ],
+        "recommends_count": "16",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "9",
+            "sku": "珍珠奶茶(热)-大杯 珍珠奶茶(热)-大杯",
+            "original_price": "9",
+            "stock": "9866",
+            "packing_fee": "0"
+          },
+          {
+            "price": "9",
+            "sku": "珍珠奶茶(热)-大杯 默认",
+            "original_price": "9",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "珍珠奶茶(冷)-超级杯",
+        "month_sales_count": "2",
+        "score": "4",
+        "comments_count": "1",
+        "pid": "200000187802400513",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/f/9e/fbe288d942ab50597a799e52b5376jpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "珍珠奶茶(冷)-超级杯 珍珠奶茶(冷)-超级杯",
+            "original_price": "12",
+            "stock": "9959",
+            "packing_fee": "0"
+          },
+          {
+            "price": "12",
+            "sku": "珍珠奶茶(冷)-超级杯 默认",
+            "original_price": "12",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "珍珠奶茶(热)-超级杯",
+        "month_sales_count": "16",
+        "score": "4",
+        "comments_count": "1",
+        "pid": "200000187798023937",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/f/9e/fbe288d942ab50597a799e52b5376jpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "珍珠奶茶(热)-超级杯 珍珠奶茶(热)-超级杯",
+            "original_price": "12",
+            "stock": "9951",
+            "packing_fee": "0"
+          },
+          {
+            "price": "12",
+            "sku": "珍珠奶茶(热)-超级杯 默认",
+            "original_price": "12",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "布丁奶茶(冷)-大杯",
+        "month_sales_count": "1",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187802413825",
+        "desc": "",
+        "price": "10元起",
+        "images": [
+          "https://fuss10.elemecdn.com/3/89/2e6c1fe5e6cfaf0d723c3641a93edjpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "10",
+            "sku": "布丁奶茶(冷)-大杯 布丁奶茶(冷)-大杯",
+            "original_price": "10",
+            "stock": "9974",
+            "packing_fee": "0"
+          },
+          {
+            "price": "10",
+            "sku": "布丁奶茶(冷)-大杯 默认",
+            "original_price": "10",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "布丁奶茶(热)-大杯",
+        "month_sales_count": "9",
+        "score": "4",
+        "comments_count": "1",
+        "pid": "200000187802424065",
+        "desc": "",
+        "price": "10元起",
+        "images": [
+          "https://fuss10.elemecdn.com/3/89/2e6c1fe5e6cfaf0d723c3641a93edjpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "10",
+            "sku": "布丁奶茶(热)-大杯 布丁奶茶(热)-大杯",
+            "original_price": "10",
+            "stock": "9959",
+            "packing_fee": "0"
+          },
+          {
+            "price": "10",
+            "sku": "布丁奶茶(热)-大杯 默认",
+            "original_price": "10",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "布丁奶茶(冷)-超级杯",
+        "month_sales_count": "1",
+        "score": "4",
+        "comments_count": "1",
+        "pid": "200000187802432257",
+        "desc": "",
+        "price": "13元起",
+        "images": [
+          "https://fuss10.elemecdn.com/3/89/2e6c1fe5e6cfaf0d723c3641a93edjpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "13",
+            "sku": "布丁奶茶(冷)-超级杯 布丁奶茶(冷)-超级杯",
+            "original_price": "13",
+            "stock": "9976",
+            "packing_fee": "0"
+          },
+          {
+            "price": "13",
+            "sku": "布丁奶茶(冷)-超级杯 默认",
+            "original_price": "13",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "布丁奶茶(热)-超级杯",
+        "month_sales_count": "4",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187806478081",
+        "desc": "",
+        "price": "13元起",
+        "images": [
+          "https://fuss10.elemecdn.com/3/89/2e6c1fe5e6cfaf0d723c3641a93edjpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "13",
+            "sku": "布丁奶茶(热)-超级杯 布丁奶茶(热)-超级杯",
+            "original_price": "13",
+            "stock": "9989",
+            "packing_fee": "0"
+          },
+          {
+            "price": "13",
+            "sku": "布丁奶茶(热)-超级杯 默认",
+            "original_price": "13",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "英式奶茶(冷)-大杯",
+        "month_sales_count": "7",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187802443521",
+        "desc": "",
+        "price": "9元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/41/82c8428a3f241a1628b674ef5e865jpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "9",
+            "sku": "英式奶茶(冷)-大杯 英式奶茶(冷)-大杯",
+            "original_price": "9",
+            "stock": "9974",
+            "packing_fee": "0"
+          },
+          {
+            "price": "9",
+            "sku": "英式奶茶(冷)-大杯 默认",
+            "original_price": "9",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "英式奶茶(热)-大杯",
+        "month_sales_count": "25",
+        "score": "4.5",
+        "comments_count": "4",
+        "pid": "200000187794460417",
+        "desc": "",
+        "price": "9元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/41/82c8428a3f241a1628b674ef5e865jpeg.jpeg"
+        ],
+        "recommends_count": "4",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "9",
+            "sku": "英式奶茶(热)-大杯 英式奶茶(热)-大杯",
+            "original_price": "9",
+            "stock": "9916",
+            "packing_fee": "0"
+          },
+          {
+            "price": "9",
+            "sku": "英式奶茶(热)-大杯 默认",
+            "original_price": "9",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "英式奶茶(冷)-超级杯",
+        "month_sales_count": "2",
+        "score": "4",
+        "comments_count": "2",
+        "pid": "200000187794464513",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/41/82c8428a3f241a1628b674ef5e865jpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "英式奶茶(冷)-超级杯 英式奶茶(冷)-超级杯",
+            "original_price": "12",
+            "stock": "9979",
+            "packing_fee": "0"
+          },
+          {
+            "price": "12",
+            "sku": "英式奶茶(冷)-超级杯 默认",
+            "original_price": "12",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "英式奶茶(热)-超级杯",
+        "month_sales_count": "13",
+        "score": "4.25",
+        "comments_count": "4",
+        "pid": "200000187798065921",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/41/82c8428a3f241a1628b674ef5e865jpeg.jpeg"
+        ],
+        "recommends_count": "4",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "英式奶茶(热)-超级杯 英式奶茶(热)-超级杯",
+            "original_price": "12",
+            "stock": "9970",
+            "packing_fee": "0"
+          },
+          {
+            "price": "12",
+            "sku": "英式奶茶(热)-超级杯 默认",
+            "original_price": "12",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "燕麦奶茶(冷)-大杯",
+        "month_sales_count": "4",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187802478337",
+        "desc": "",
+        "price": "9元起",
+        "images": [
+          "https://fuss10.elemecdn.com/6/62/60df39c9f23609ec1ac4f2ca0c913jpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "9",
+            "sku": "燕麦奶茶(冷)-大杯 燕麦奶茶(冷)-大杯",
+            "original_price": "9",
+            "stock": "9984",
+            "packing_fee": "0"
+          },
+          {
+            "price": "9",
+            "sku": "燕麦奶茶(冷)-大杯 默认",
+            "original_price": "9",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "燕麦奶茶(热)-大杯",
+        "month_sales_count": "13",
+        "score": "4",
+        "comments_count": "1",
+        "pid": "200000187802489601",
+        "desc": "",
+        "price": "9元起",
+        "images": [
+          "https://fuss10.elemecdn.com/6/62/60df39c9f23609ec1ac4f2ca0c913jpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "9",
+            "sku": "燕麦奶茶(热)-大杯 燕麦奶茶(热)-大杯",
+            "original_price": "9",
+            "stock": "9962",
+            "packing_fee": "0"
+          },
+          {
+            "price": "9",
+            "sku": "燕麦奶茶(热)-大杯 默认",
+            "original_price": "9",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "燕麦奶茶(冷)-超级杯",
+        "month_sales_count": "1",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187806506753",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/6/62/60df39c9f23609ec1ac4f2ca0c913jpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "燕麦奶茶(冷)-超级杯 燕麦奶茶(冷)-超级杯",
+            "original_price": "12",
+            "stock": "9993",
+            "packing_fee": "0"
+          },
+          {
+            "price": "12",
+            "sku": "燕麦奶茶(冷)-超级杯 默认",
+            "original_price": "12",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "燕麦奶茶(热)-超级杯",
+        "month_sales_count": "2",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187798086401",
+        "desc": "",
+        "price": "12元起",
+        "images": [
+          "https://fuss10.elemecdn.com/6/62/60df39c9f23609ec1ac4f2ca0c913jpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "12",
+            "sku": "燕麦奶茶(热)-超级杯 燕麦奶茶(热)-超级杯",
+            "original_price": "12",
+            "stock": "9988",
+            "packing_fee": "0"
+          },
+          {
+            "price": "12",
+            "sku": "燕麦奶茶(热)-超级杯 默认",
+            "original_price": "12",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "嫩仙草奶茶(冷)-大杯",
+        "month_sales_count": "1",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187798093569",
+        "desc": "",
+        "price": "11元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/47/d0d5f1ed2de55e0acc7f2eb9f3aabjpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "11",
+            "sku": "嫩仙草奶茶(冷)-大杯 嫩仙草奶茶(冷)-大杯",
+            "original_price": "11",
+            "stock": "9974",
+            "packing_fee": "0"
+          },
+          {
+            "price": "11",
+            "sku": "嫩仙草奶茶(冷)-大杯 默认",
+            "original_price": "11",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "嫩仙草奶茶(热)-大杯",
+        "month_sales_count": "3",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187806515969",
+        "desc": "",
+        "price": "11元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/47/d0d5f1ed2de55e0acc7f2eb9f3aabjpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "11",
+            "sku": "嫩仙草奶茶(热)-大杯 嫩仙草奶茶(热)-大杯",
+            "original_price": "11",
+            "stock": "9973",
+            "packing_fee": "0"
+          },
+          {
+            "price": "11",
+            "sku": "嫩仙草奶茶(热)-大杯 默认",
+            "original_price": "11",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "嫩仙草奶茶(冷)-超级杯",
+        "month_sales_count": "1",
+        "score": "4",
+        "comments_count": "1",
+        "pid": "200000187798104833",
+        "desc": "",
+        "price": "14元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/47/d0d5f1ed2de55e0acc7f2eb9f3aabjpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "14",
+            "sku": "嫩仙草奶茶(冷)-超级杯 嫩仙草奶茶(冷)-超级杯",
+            "original_price": "14",
+            "stock": "9989",
+            "packing_fee": "0"
+          },
+          {
+            "price": "14",
+            "sku": "嫩仙草奶茶(冷)-超级杯 默认",
+            "original_price": "14",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "嫩仙草奶茶(热)-超级杯",
+        "month_sales_count": "1",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187794506497",
+        "desc": "",
+        "price": "14元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/47/d0d5f1ed2de55e0acc7f2eb9f3aabjpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "14",
+            "sku": "嫩仙草奶茶(热)-超级杯 嫩仙草奶茶(热)-超级杯",
+            "original_price": "14",
+            "stock": "9995",
+            "packing_fee": "0"
+          },
+          {
+            "price": "14",
+            "sku": "嫩仙草奶茶(热)-超级杯 默认",
+            "original_price": "14",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "红豆珍珠奶茶(冷)-大杯",
+        "month_sales_count": "1",
+        "score": "4",
+        "comments_count": "1",
+        "pid": "200000187794513665",
+        "desc": "",
+        "price": "11元起",
+        "images": [
+          "https://fuss10.elemecdn.com/8/54/7d966732571c1a212b1a90915d0ffjpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "11",
+            "sku": "红豆珍珠奶茶(冷)-大杯 红豆珍珠奶茶(冷)-大杯",
+            "original_price": "11",
+            "stock": "9992",
+            "packing_fee": "0"
+          },
+          {
+            "price": "11",
+            "sku": "红豆珍珠奶茶(冷)-大杯 默认",
+            "original_price": "11",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "红豆珍珠奶茶(热)-大杯",
+        "month_sales_count": "4",
+        "score": "4.33",
+        "comments_count": "3",
+        "pid": "200000187802540801",
+        "desc": "",
+        "price": "11元起",
+        "images": [
+          "https://fuss10.elemecdn.com/8/54/7d966732571c1a212b1a90915d0ffjpeg.jpeg"
+        ],
+        "recommends_count": "3",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "11",
+            "sku": "红豆珍珠奶茶(热)-大杯 红豆珍珠奶茶(热)-大杯",
+            "original_price": "11",
+            "stock": "9964",
+            "packing_fee": "0"
+          },
+          {
+            "price": "11",
+            "sku": "红豆珍珠奶茶(热)-大杯 默认",
+            "original_price": "11",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "红豆珍珠奶茶(冷)-超级杯",
+        "month_sales_count": "1",
+        "score": "4",
+        "comments_count": "1",
+        "pid": "200000187798122241",
+        "desc": "",
+        "price": "14元起",
+        "images": [
+          "https://fuss10.elemecdn.com/8/54/7d966732571c1a212b1a90915d0ffjpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "14",
+            "sku": "红豆珍珠奶茶(冷)-超级杯 红豆珍珠奶茶(冷)-超级杯",
+            "original_price": "14",
+            "stock": "9995",
+            "packing_fee": "0"
+          },
+          {
+            "price": "14",
+            "sku": "红豆珍珠奶茶(冷)-超级杯 默认",
+            "original_price": "14",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "红豆珍珠奶茶(热)-超级杯",
+        "month_sales_count": "4",
+        "score": "4",
+        "comments_count": "2",
+        "pid": "200000187794530049",
+        "desc": "",
+        "price": "14元起",
+        "images": [
+          "https://fuss10.elemecdn.com/8/54/7d966732571c1a212b1a90915d0ffjpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "14",
+            "sku": "红豆珍珠奶茶(热)-超级杯 红豆珍珠奶茶(热)-超级杯",
+            "original_price": "14",
+            "stock": "9985",
+            "packing_fee": "0"
+          },
+          {
+            "price": "14",
+            "sku": "红豆珍珠奶茶(热)-超级杯 默认",
+            "original_price": "14",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      }
+    ],
+    "category": "奶茶"
+  },
+  {
+    "products": [
+      {
+        "name": "海岩奶绿(冷)-大杯",
+        "month_sales_count": "5",
+        "score": "4",
+        "comments_count": "3",
+        "pid": "200000187798137601",
+        "desc": "",
+        "price": "10元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/37/bb3857192c6061252caa9bd1d6b7fjpeg.jpeg"
+        ],
+        "recommends_count": "3",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "10",
+            "sku": "海岩奶绿(冷)-大杯 海岩奶绿(冷)-大杯",
+            "original_price": "10",
+            "stock": "9930",
+            "packing_fee": "0"
+          },
+          {
+            "price": "10",
+            "sku": "海岩奶绿(冷)-大杯 默认",
+            "original_price": "10",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "海岩奶绿(热)-大杯",
+        "month_sales_count": "10",
+        "score": "4",
+        "comments_count": "4",
+        "pid": "200000187802582785",
+        "desc": "",
+        "price": "10元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/37/bb3857192c6061252caa9bd1d6b7fjpeg.jpeg"
+        ],
+        "recommends_count": "4",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "10",
+            "sku": "海岩奶绿(热)-大杯 海岩奶绿(热)-大杯",
+            "original_price": "10",
+            "stock": "9960",
+            "packing_fee": "0"
+          },
+          {
+            "price": "10",
+            "sku": "海岩奶绿(热)-大杯 默认",
+            "original_price": "10",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "海岩奶绿(冷)-超级杯",
+        "month_sales_count": "5",
+        "score": "4.5",
+        "comments_count": "2",
+        "pid": "200000187802590977",
+        "desc": "",
+        "price": "13元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/37/bb3857192c6061252caa9bd1d6b7fjpeg.jpeg"
+        ],
+        "recommends_count": "2",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "13",
+            "sku": "海岩奶绿(冷)-超级杯 海岩奶绿(冷)-超级杯",
+            "original_price": "13",
+            "stock": "9967",
+            "packing_fee": "0"
+          },
+          {
+            "price": "13",
+            "sku": "海岩奶绿(冷)-超级杯 默认",
+            "original_price": "13",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "海岩奶绿(热)-超级杯",
+        "month_sales_count": "3",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187806567169",
+        "desc": "",
+        "price": "13元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/37/bb3857192c6061252caa9bd1d6b7fjpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "13",
+            "sku": "海岩奶绿(热)-超级杯 海岩奶绿(热)-超级杯",
+            "original_price": "13",
+            "stock": "9991",
+            "packing_fee": "0"
+          },
+          {
+            "price": "13",
+            "sku": "海岩奶绿(热)-超级杯 默认",
+            "original_price": "13",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "茉香鲜绿茶(冷)-大杯",
+        "month_sales_count": "1",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187794557697",
+        "desc": "",
+        "price": "7元起",
+        "images": [
+          "https://fuss10.elemecdn.com/d/3d/d6762e60337d1fc26802dc2d0abcajpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "7",
+            "sku": "茉香鲜绿茶(冷)-大杯 茉香鲜绿茶(冷)-大杯",
+            "original_price": "7",
+            "stock": "9977",
+            "packing_fee": "0"
+          },
+          {
+            "price": "7",
+            "sku": "茉香鲜绿茶(冷)-大杯 默认",
+            "original_price": "7",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "茉香鲜绿茶(热)-大杯",
+        "month_sales_count": "1",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187798165249",
+        "desc": "",
+        "price": "7元起",
+        "images": [
+          "https://fuss10.elemecdn.com/d/3d/d6762e60337d1fc26802dc2d0abcajpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "7",
+            "sku": "茉香鲜绿茶(热)-大杯 茉香鲜绿茶(热)-大杯",
+            "original_price": "7",
+            "stock": "9994",
+            "packing_fee": "0"
+          },
+          {
+            "price": "7",
+            "sku": "茉香鲜绿茶(热)-大杯 默认",
+            "original_price": "7",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      }
+    ],
+    "category": "奶霜/茶饮"
+  },
+  {
+    "products": [
+      {
+        "name": "微酸美莓优格",
+        "month_sales_count": "1",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187802627841",
+        "desc": "",
+        "price": "18元起",
+        "images": [
+          "https://fuss10.elemecdn.com/9/51/6b12bfb8a8544ce7fc07688710df7jpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "18",
+            "sku": "微酸美莓优格",
+            "original_price": "18",
+            "stock": "9981",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "松子核桃米浆(冷)-中杯",
+        "month_sales_count": "1",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000187794584321",
+        "desc": "",
+        "price": "10元起",
+        "images": [
+          "https://fuss10.elemecdn.com/4/10/f809d74da9085b6fa1cfd84dbd055jpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "10",
+            "sku": "松子核桃米浆(冷)-中杯 松子核桃米浆(冷)-中杯",
+            "original_price": "10",
+            "stock": "9989",
+            "packing_fee": "0"
+          },
+          {
+            "price": "10",
+            "sku": "松子核桃米浆(冷)-中杯 默认",
+            "original_price": "10",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "松子核桃米浆(热)-中杯",
+        "month_sales_count": "45",
+        "score": "4.25",
+        "comments_count": "12",
+        "pid": "200000187798187777",
+        "desc": "",
+        "price": "10元起",
+        "images": [
+          "https://fuss10.elemecdn.com/4/10/f809d74da9085b6fa1cfd84dbd055jpeg.jpeg"
+        ],
+        "recommends_count": "12",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "10",
+            "sku": "松子核桃米浆(热)-中杯 松子核桃米浆(热)-中杯",
+            "original_price": "10",
+            "stock": "9852",
+            "packing_fee": "0"
+          },
+          {
+            "price": "10",
+            "sku": "松子核桃米浆(热)-中杯 默认",
+            "original_price": "10",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "黑糖珍珠鲜奶(冷)-大杯",
+        "month_sales_count": "0",
+        "score": "0",
+        "comments_count": "0",
+        "pid": "200000299566399233",
+        "desc": "",
+        "price": "16元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/0f/5a227868af8e7ecdb450c109abeabjpeg.jpeg"
+        ],
+        "recommends_count": "0",
+        "recommends_rate": "0%",
+        "sku_detail": [
+          {
+            "price": "16",
+            "sku": "黑糖珍珠鲜奶(冷)-大杯 黑糖珍珠鲜奶(冷)-大杯",
+            "original_price": "16",
+            "stock": "10000",
+            "packing_fee": "0"
+          },
+          {
+            "price": "16",
+            "sku": "黑糖珍珠鲜奶(冷)-大杯 默认",
+            "original_price": "16",
+            "stock": "0",
+            "packing_fee": "0"
+          }
+        ]
+      },
+      {
+        "name": "黑糖珍珠鲜奶(热)-大杯",
+        "month_sales_count": "2",
+        "score": "5",
+        "comments_count": "1",
+        "pid": "200000299559250689",
+        "desc": "",
+        "price": "16元起",
+        "images": [
+          "https://fuss10.elemecdn.com/c/0f/5a227868af8e7ecdb450c109abeabjpeg.jpeg"
+        ],
+        "recommends_count": "1",
+        "recommends_rate": "100%",
+        "sku_detail": [
+          {
+            "price": "16",
+            "sku": "黑糖珍珠鲜奶(热)-大杯",
+            "original_price": "16",
+            "stock": "9997",
+            "packing_fee": "0"
+          }
+        ]
+      }
+    ],
+    "category": "谷物奶/乳品"
+  }
+]
