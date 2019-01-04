@@ -1,0 +1,60 @@
+@import '@/styles/common/px2rem.scss';
+.b{
+    height: px2rem(50) !important;
+    width:100%;
+    position: absolute;
+    top:px2rem(618);
+
+    z-index:999999999;
+   
+    .l{
+        height:100%;
+        float: left;
+        width:75%;
+        background: rgba(61,61,63,.9);
+        // position: absolute;
+       p{
+           width:px2rem(50);
+           height:px2rem(50);
+           background-color: #0085fffa;
+           background-clip:padding-box;
+           border: px2rem(6) solid #191a1b94;
+           border-radius: 100%;
+           background-image: url(./1.png) ;
+           background-repeat: no-repeat;
+           background-position:center center;
+           background-origin:padding-box;
+           position: relative;
+           margin-top: px2rem(-10);
+           margin-left: px2rem(20);
+       }
+      
+
+    }
+    .r{ 
+        height:100%;
+        float: right;
+        width:25%;
+        background: #38ca73;
+        text-align: center;
+        line-height:px2rem(50);
+        font-weight: 600;
+        color:white;
+    }
+    .y{
+        margin-top:px2rem(10);
+        position: absolute;
+        top:-0.1px;
+      margin-left:px2rem(100);
+      float:right;
+      z-index: 99999999999999999999;
+      span{
+          color: white;
+          font-weight: 700;
+      }
+    }
+    .zi{
+        font-size: px2rem(3);
+        color: #999;
+    }
+}
