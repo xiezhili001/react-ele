@@ -99,3 +99,13 @@
   color: #999;
   font-size: px2rem(12);
 }
+.MessageLogin-FsPlX>input:focus {
+  border-color: #0089dc;
+}
+.am-toast-text{
+  position: absolute;
+  bottom: px2rem(100);
+  right: px2rem(100);
+  width: px2rem(170);
+  border-radius: px2rem(20)!important;
+}
