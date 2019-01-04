@@ -16,16 +16,16 @@ constructor(props){
 	return num < 10 ? "0" + num : num;
 }
 dateToString(date){
-	
-	
+
+
 	var dateStr = "";
-	
+
 
 	var h = date.getHours();
 	var M = date.getMinutes()+10;
-	var s = date.getSeconds();
-	
-	// dateStr += y+"年"+getDB(m)+"月"+getDB(d)+"日" 
+	// var s = date.getSeconds();
+
+	// dateStr += y+"年"+getDB(m)+"月"+getDB(d)+"日"
 	dateStr += " " + this.getDB(h) + ":" + this.getDB(M) ;
 	// dateStr += " " + week[w];
 	return dateStr;
@@ -41,7 +41,7 @@ chooseTime(res){
     time:res
     })
   this.refs['choose'].style.display="none";
-  
+
   // console.log(res);
 
 }
@@ -50,7 +50,7 @@ close(){
 
 }
 
-  
+
 
 componentWillMount(){
 var date=new Date();
@@ -92,6 +92,7 @@ time:this.dateToString(date)
           <ul className="form">
             <li>
               <div><p>
+              {/* eslint-disable-next-line */}
               <img src="https://fuss10.elemecdn.com/7/2c/9cd94a63feda4dfbede17a0958218jpeg.jpeg?imageMogr/format/webp/thumbnail/!72x72r/gravity/Center/crop/72x72/"/>
               </p>
               <p><em>油豆腐炒肉饭</em><br/>
@@ -125,8 +126,8 @@ time:this.dateToString(date)
       <div className="l">￥16</div>
         <div className="r">去支付</div>
       </div>
-     
-      
+
+
       <div className="choose" ref="choose" onClick={this.close.bind(this)}>
       <div className="top"></div>
       <div className="low">
@@ -144,7 +145,7 @@ time:this.dateToString(date)
       <div onClick={this.chooseTime.bind(this,"15:60")}><b>15:60</b> <em>(1元配送费)</em></div>
       <div onClick={this.chooseTime.bind(this,"16:05")}><b>16:05</b> <em>(1元配送费)</em></div>
       <div onClick={this.chooseTime.bind(this,"16:20")}><b>16:20</b><em>(1元配送费)</em></div>
-     
+
       </div>
 
       </div>
