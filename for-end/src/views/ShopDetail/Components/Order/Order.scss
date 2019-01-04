@@ -1,0 +1,77 @@
+@import '../../px2rem.scss';
+
+
+ // 宣传图
+ .publicity {
+  height: px2rem(190);
+  text-align: center;
+  background-color: white;
+  padding: 0 px2rem(35);
+  img{
+    border-radius: px2rem(8);
+  }
+}
+
+// 推荐
+.recommend{
+  padding-top: px2rem(20);
+  height: px2rem(467);
+  background-color: white;
+  h2{
+    font-size: px2rem(32);
+    padding-left: px2rem(32);
+    color: #333;
+  }
+  ul{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    margin-top: px2rem(26);
+    padding: 0 px2rem(20);
+    li{
+      margin:0 px2rem(10);
+      min-width: px2rem(240);
+      height: px2rem(408);
+      // border: 1px solid red;
+      // margin-left: px2rem(20);
+      img{
+        width:100%;
+      }
+      .goods-title{
+        font-size: px2rem(30);
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        color: #333;
+        margin: px2rem(14) 0 px2rem(7);
+      }
+      .goods-sales{
+        font-size: px2rem(23);
+        color: #999;
+        margin: px2rem(15) 0;
+      }
+      div{
+        margin: px2rem(20) 0;
+        height: px2rem(44);
+        line-height: px2rem(44);
+        display: flex;
+        justify-content: space-between;
+        span{
+          font-size: px2rem(35);
+          color: rgb(255, 83, 57);
+          i{
+            color: rgb(255, 83, 57);
+            font-size: px2rem(25);
+          }
+        }
+        i{
+          font-size: px2rem(50);
+          // line-height: px2rem(30);
+          color: #2395ff;
+        }
+      }
+    }
+  }
+
+}

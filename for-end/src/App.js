@@ -6,6 +6,7 @@ import Home from './views/Home';
 import detailCity from './views/detailCity';
 import DetailLoginInfo from './views/DetailLoginInfo';
 import UpdateUsername from './views/UpdateUsername';
+import ShopDetail from './views/ShopDetail/ShopDetail';
 import store from './store';
 import City from './views/City';
 import Rules from './views/Rules/index';
@@ -29,6 +30,7 @@ class App extends React.Component {
           <Route path="/login" component={login}></Route>
           <Route path="/rules" component={Rules}></Route>
           <Route path="/city" component={City}></Route>
+          <Route path='/shopdetail' component={ ShopDetail }></Route>
           <Route path="/" component={Home}></Route>
         </Switch>
       </Router>

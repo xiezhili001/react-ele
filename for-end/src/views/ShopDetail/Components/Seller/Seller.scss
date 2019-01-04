@@ -1,0 +1,58 @@
+@import '../../px2rem.scss';
+
+.seller{
+  .delivery-info{
+    padding: px2rem(30);
+    h2{
+    font-size: px2rem(30);
+    margin-bottom: px2rem(40);
+    }
+    p{
+      font-size: px2rem(25);
+      margin: px2rem(15) 0;
+      color: #666;
+    }
+  }
+  .bgbg{
+    height: px2rem(20);
+    background-color: rgba(221, 207, 207, 0.3);
+  }
+  .active-server{
+    p{
+      margin: px2rem(30) 0;
+    }
+    .tejia{
+      background-color: rgb(241, 136, 79);
+      color: white;
+      padding: 0 px2rem(10)
+    }
+    .shoudan{
+      background-color: rgb(112, 188, 70);
+      color: white;
+      padding: 0 px2rem(10)
+    }
+  }
+
+  .seller-info{
+    ul{
+      min-height:px2rem(230);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      li{
+        border-bottom: 1px solid gray;
+        font-size: px2rem(25);
+        padding: px2rem(30) 0;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+        .xiangxi{
+          width: 70%;
+          text-align: right;
+          color: gray;
+          line-height: px2rem(35);
+        }
+      }
+    }
+  }
+}

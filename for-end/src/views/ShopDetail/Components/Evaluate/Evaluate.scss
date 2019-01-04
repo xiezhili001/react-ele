@@ -1,0 +1,145 @@
+@import '../../px2rem.scss';
+
+
+.shop-grade{
+  height: px2rem(191);
+  // line-height: px2rem(191);
+  display: flex;
+  div{
+    margin:0 px2rem(30);
+    display: flex;
+    align-self: center;
+    h2{
+      font-size: px2rem(80);
+      color: #ff6000;
+      font-weight: 400;
+    }
+    div{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      // border: 1px solid red;
+      width: px2rem(112);
+      height: px2rem(58);
+      p{
+        font-size: px2rem(25);
+      }
+      img{
+        // margin-top: px2rem(20);
+        height: px2rem(20);
+      }
+    }
+  }
+  ul{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding-right: px2rem(20);
+    li{
+      align-self: center;
+      text-align: center;
+      color: #666;
+      font-size: px2rem(25);
+      span{
+        display: block;
+        font-size: px2rem(38);
+        margin-top: px2rem(15);
+      }
+    }
+  }
+}
+.bgbg{
+  background-color: rgba(10,10,10,0.1);
+  height: px2rem(15);
+}
+// 评价 ↓ ↓ ↓
+.evaluate{
+  padding: px2rem(30) px2rem(20);
+  .evaluate-type{
+    display: flex;
+    li{
+      width: px2rem(130);
+      height: px2rem(56);
+      line-height: px2rem(56);
+      text-align: center;
+      font-size: px2rem(23);
+      border-radius: px2rem(5);
+      margin-left: px2rem(15);
+      color: #666;
+      background-color: #ebf5ff;
+      &.cur-type{
+        color: white;
+        background-color: #0097ff;
+      }
+    }
+    .bad-type{
+      color: gray;
+      background-color: #f5f5f5;
+      &.bad-type-cur{
+        color: white;
+        background-color: rgba(128, 128, 128, 0.5);
+      }
+    }
+  }
+  .only-content{
+    font-size: px2rem(25);
+    height: px2rem(80);
+    line-height: px2rem(80);
+    border-top: px2rem(1) solid gray;
+    border-bottom: px2rem(1) solid gray;
+    margin-top: px2rem(20);
+    padding-left: px2rem(30);
+    opacity: 0.6;
+    i{
+      color: green;
+      font-size: px2rem(25);
+      line-height: px2rem(80);
+    }
+  }
+  //评价列表ul
+  .evaluate-list{
+    height: px2rem(351);
+    li{
+      display: flex;
+      padding: px2rem(30) 0 px2rem(40);
+      border-bottom: px2rem(1) solid gray;
+      .user-head{
+        height: px2rem(60);
+        width: px2rem(60);
+        margin-right: px2rem(15);
+        border-radius: 50%;
+        border: 1px solid red;
+        line-height: px2rem(50);
+        text-align: center;
+        font-size: px2rem(30);
+      }
+      .user-evaluate{
+        flex: 1;
+        // height: px2rem(400);
+        .uesr-and-time{
+          display: flex;
+          justify-content: space-between;
+          height: px2rem(35);
+          margin: px2rem(10) 0;
+          font-size: px2rem(22);
+          color: gray;
+          .uesr-eva-name{
+            color: #111;
+            font-size: px2rem(25);
+          }
+        }
+        .uesr-eva-grade{
+          margin: px2rem(15) 0;
+          img{
+            width: px2rem(120);
+            height: px2rem(20);
+          }
+        }
+        .uesr-eva-pic{
+          height: 100%;
+        }
+      }
+    }
+  }
+
+}
