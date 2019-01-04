@@ -157,7 +157,7 @@ class HomePage extends React.Component {
 
       </div>
       <div className="foot-t">
-        <Link to="/food" className="food"><span className="iconfont icon-sousuo ">搜索饿了么商家、商品名称</span></Link>
+        <Link to="/search" className="food"><span className="iconfont icon-sousuo ">搜索饿了么商家、商品名称</span></Link>
       </div>
     <Carousel dots={false}>
     <ul className="banner">

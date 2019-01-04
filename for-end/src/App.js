@@ -12,6 +12,7 @@ import City from './views/City';
 import Rules from './views/Rules/index';
 import login from './views/Login/index';
 import Submit from './views/Submit/index';
+import Search from "./"
 
 class App extends React.Component {
 
@@ -29,6 +30,7 @@ class App extends React.Component {
     return (
       <Router>
         <Switch>
+          <Route path="/search" component={Search}></Route>
           <Route path="/detailCity" component={detailCity}></Route>
           <Route path="/detailLoginInfo" component={DetailLoginInfo}></Route>
           <Route path="/updateUsername" component={UpdateUsername}></Route>
