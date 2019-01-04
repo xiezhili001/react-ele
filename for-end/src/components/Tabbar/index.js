@@ -7,12 +7,12 @@ class Tabbar extends Component {
   render() {
     let tabs = this.props.tabs;
     return (
-      <ul className="tab-bar">
+      <ul className="dibu">
         {
           tabs.map(item => {
             return (
               <li
-                className="tab-bar__item"
+                className="dibu__item"
                 key={item.key}>
                 <NavLink to={item.href}>
                   <i className={`iconfont ${item.icon}`}></i>
