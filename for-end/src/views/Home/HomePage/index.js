@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {Carousel } from 'antd-mobile';
-import axios from 'axios';
+// import axios from 'axios';
+import dataJson from './date.json';
 
 import './index.scss'
 /*
@@ -113,15 +114,10 @@ class HomePage extends React.Component {
     // })
   }
   getList(){
-    axios.get("/api/homePageGood/list").then((res)=>{
-
-      console.log("进来了");
-     var data=res.data.data.list;
-      console.log(res.data.data.list);
-      this.setState({
-        list:data
-      })
-
+    console.log(dataJson);
+    // var newDataJson = JSON.parse(dataJson);
+    this.setState({
+      list : dataJson
     })
   }
 componentWillMount(){
@@ -216,13 +212,13 @@ componentWillMount(){
         <Link to="/detail" className="detail">
 
     {/* eslint-disable-next-line */}
-           <img src={item.imgUrl} key={index} />
+           <img src={item.logo} key={index} />
 
           <div className="right">
             <i>品牌</i><span>{item.name}</span>
     {/* eslint-disable-next-line */}
-            <p><img src={item.star}/> <span>{item.pingjia}</span>月售{item.number}单</p>
-           <div className="line"> <p>￥{item.qisong}起送 | 配送费 ￥{item.peisong}</p><span>{item.juli} | {item.minite}分钟</span></div>
+            <p><span>{item.score}</span>&nbsp;<span>{item.pingjia}</span>月售{item.month_sales_count}单</p>
+           <div className="line"> <p>￥{item.delivery_start_price}起送 | 配送费 ￥{item.delivery_fee}</p><span>{item.juli}m | {item.minite}分钟</span></div>
           </div>
          </Link>
         </li>
