@@ -7,6 +7,7 @@ import detailCity from './views/detailCity';
 import store from './store';
 import City from './views/City';
 import Rules from './views/Rules/index';
+import Order from '@/components/Order';
 
 import login from './views/Login/index';
 
@@ -24,7 +25,8 @@ class App extends React.Component {
           <Route path="/login" component={login}></Route>
           <Route path="/rules" component={Rules}></Route>
           <Route path="/city" component={City}></Route>
-          <Route path="/" component={Home}></Route>
+          {/* <Route path="/" component={Home}></Route> */}
+              <Route path="/" component={Order}></Route>
         </Switch>
       </Router>
     )

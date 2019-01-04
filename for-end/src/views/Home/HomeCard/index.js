@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.scss'
+// import Bottom from '@/components/Bottom';
 class HomeCard extends React.Component {
   render() {
     return (
@@ -30,6 +31,8 @@ class HomeCard extends React.Component {
       <p>再来一单</p>
       </div>
       </div>
+
+      {/* <Bottom></Bottom> */}
       </div>
     )
   }
