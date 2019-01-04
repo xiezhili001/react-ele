@@ -1,7 +1,11 @@
 import React from 'react';
 import './index.scss';
 import axios from 'axios';
-
+import cook from './cookie';
+import cook2 from './cookie2';
+import cook3 from './cookie3';
+import getCookieValue from './cookie3';
+import {Toast} from 'antd-mobile';
 
 
 
@@ -11,14 +15,22 @@ class Login extends React.Component {
     this.state = {
       phone:'',
       code:'',
-      codes:''
+      codes:'',
+      captchaBtnText :"获取验证码"
     };
+    this.handleGetInputValue = this.handleGetInputValue.bind(this);
     this.getPhonecode = this.getPhonecode.bind(this);
     this.login = this.login.bind(this);
   }
   handleGetInputValue = (event) => {
     this.setState({
       phone:event.target.value,
+    },()=>{
+      if(/^1[34578]\d{9}$/.test(this.state.phone)) {
+        this.refs['dis'].style.color = "blue";
+      }else{
+        this.refs['dis'].style.color = "gray";
+      }
     })
   }
   handleGetCodeValue = (event) => {
@@ -28,23 +40,51 @@ class Login extends React.Component {
   }
 
   getPhonecode () {
-    axios.post('/api/login',{codenum:this.state.code,phone:this.state.phone}).then((res) =>{
-      console.log(res.data.body);
-      this.setState({
-        codes : res.data.body.codes,
+    if(this.state.phone === "18397910481") {
+      axios.post('/api/login',{codenum:this.state.code,phone:this.state.phone}).then((res) =>{
+        console.log(res.data.body,"短信发送成功!");
+        this.refs['dis'].style.color="gray";
+        this.setState({
+          codes : res.data.body.codes,
+        })
+        cook('secondsremained',60,60);
+        const countdown = getCookieValue('secondsremained') ? getCookieValue('secondsremained') : 0;
+        if (countdown !== undefined && countdown > 0) {
+          this.settime();
+        }
       })
-      // console.log(this.state.code);
-    })
+    }
+
   }
   login () {
-    // console.log(this.state);
-    if (this.state.code === this.state.codes) {
-      // console.log("登录成功")
+    if (this.state.code === this.state.codes && this.state.phone === '18397910481'&&this.state.code!=='') {
       this.props.history.replace('/center');
       localStorage.setItem("username",this.state.phone);
+    }else if(this.state.code === ''){
+      Toast.info('请输入验证码！');
+    }else{
+      Toast.info('验证码错误！！');
     }
   }
 
+  settime = () => {
+    let countdown = 60;
+    countdown = cook3('secondsremained');
+    const timer = setInterval(() => {
+      if (countdown <= 0) {
+        clearInterval(timer);
+        this.setState({
+          captchaBtnText:'重新获取'
+        })
+      }else{
+        this.setState({
+          captchaBtnText:`已发送(${countdown}s)`
+        })
+        countdown--;
+      }
+      cook2('secondsremained',countdown,countdown+1);
+    },1000);
+  }
   render() {
     return (
       <div className="login">
@@ -58,9 +98,10 @@ class Login extends React.Component {
             <div>
               <form className="MessageLogin-iYvWA">
                 <section className="MessageLogin-FsPlX">
-                  <input type="tel" placeholder="手机号" value={this.state.phone} onChange={this.handleGetInputValue} />
-                  <button className="CountButton-3e-kd" ubt-click="101161" onClick={this.getPhonecode}>
-                    获取验证码
+                <input type="tel" placeholder="手机号" value={this.state.phone} onChange={this.handleGetInputValue} />
+                {/* <InputItem type="phone"  placeholder="186 1234 1234" >手机号码</InputItem> */}
+                  <button className="CountButton-3e-kd" ubt-click="101161" onClick={this.getPhonecode} ref="dis" >
+                    {this.state.captchaBtnText}
                     </button>
                 </section>
                 <section className="MessageLogin-FsPlX">
