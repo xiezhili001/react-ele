@@ -1,6 +1,26 @@
 @import '@/styles/common/px2rem.scss';
 
 .hungry {
+
+  .goTop {
+    position: fixed;
+    z-index: 9999999999;
+    border-radius: 50%;
+    background: #fff;
+    height: px2rem(40);
+    width: px2rem(40);
+    bottom: px2rem(84);
+    line-height: px2rem(40);
+    border: px2rem(1) solid #999;
+    right: px2rem(25);
+    text-align: center;
+    img {
+      height: px2rem(20);
+      width: px2rem(20);
+      margin-top: px2rem(10);
+
+    }
+  }
   background-color: white;
   flex: 1;
   height: 100%;
