@@ -36,7 +36,7 @@ const BeforeOrder = function () {
 const AfterOrder = function () {
   return <>
     <div className="gao-order">
-    <section data-v-1ec2d114="" class="nodatatipWrap NoDataTip-wrapper_1Gwf0tm" >
+    <section data-v-1ec2d114="" className="nodatatipWrap NoDataTip-wrapper_1Gwf0tm" >
     {/* eslint-disable-next-line */}
       <img src="//fuss10.elemecdn.com/d/60/70008646170d1f654e926a2aaa3afpng.png"/>
       <h3>登录后查看外卖订单</h3>
@@ -53,7 +53,7 @@ class HomeCard extends React.Component {
 
   render() {
 
-    if (localStorage.getItem("username") === null) {
+    if (localStorage.getItem("username") === "") {
       return (
         <AfterOrder></AfterOrder>
       )

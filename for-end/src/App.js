@@ -18,7 +18,11 @@ class App extends React.Component {
     store.dispatch(setCity2());
     let userinfo = JSON.stringify(userData);
     localStorage.setItem("userInfo", userinfo);
-    localStorage.setItem("username", '');
+    if(localStorage.getItem("username") == null){
+      localStorage.setItem("username", '');
+    }
+    // localStorage.setItem("username", '');
+    // console.log(localStorage.getItem("username") == null);
   }
   render() {
     return (
