@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import data from './dataList.json';
+import data from './date.json';
 import './GoodsList.scss';
 
 export default class GoodsList extends Component {
@@ -7,7 +7,6 @@ export default class GoodsList extends Component {
     super(props);
     this.state = {
       curTab: 'cur-type-1',
-      dataList: [],
       tabs: [
         { id: "cur-type-1", name: '热销' },
         { id: "cur-type-2", name: '面包' },
@@ -17,7 +16,8 @@ export default class GoodsList extends Component {
         { id: "cur-type-6", name: '奶茶' },
         { id: "cur-type-7", name: '奶霜/茶饮' },
         { id: "cur-type-8", name: '谷物奶/乳品' }
-      ]
+      ],
+      productList: []
     }
   }
   tabChange(id) {
@@ -25,10 +25,25 @@ export default class GoodsList extends Component {
       curTab: id
     });
   }
-  componentDidMount() {
-    this.setState({
-      dataList: data
+
+  componentWillMount() {
+    console.log(data);
+    this.dealwith();
+  }
+  dealwith() {
+    let shopId = JSON.parse(localStorage.getItem("shopId"));
+    let dataList = [];
+    data.map((item) => {
+      if (item.sid === shopId) {
+        dataList[0] = item;
+      }
+      return dataList[0];
     })
+    let products = dataList[0].products;
+    this.setState({
+      productList: products,
+    })
+
   }
   render() {
     return (
@@ -58,7 +73,7 @@ export default class GoodsList extends Component {
         <div className='goods-detail'>
           <dl>
             {
-              this.state.dataList.map((item1, index1) => {
+              this.state.productList.map((item1, index1) => {
                 return (
                   <div key={index1}>
                     <dt id={`/shopdetail/order/${index1 + 1}`}>{item1.category}</dt>
