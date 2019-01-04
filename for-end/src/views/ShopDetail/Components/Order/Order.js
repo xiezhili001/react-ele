@@ -7,7 +7,7 @@ export default class Order extends Component {
   constructor (props){
     super(props);
     this.state = {
-      data: ['//fuss10.elemecdn.com/8/5d/5c17e8c37ae87fd9ad46d84d57eccpng.png?imageMogr/format/webp/thumbnail/686x/', '//fuss10.elemecdn.com/7/1b/eac126f486afd64f30ac6889c358cpng.png?imageMogr/format/webp/thumbnail/686x/', '//fuss10.elemecdn.com/4/f3/cdb5977b8a152cf3d8100147f8807png.png?imageMogr/format/webp/thumbnail/686x/']
+      data: ['//fuss10.elemecdn.com/4/31/27fb8498c5beb0a18f5fe07e4b541png.png?imageMogr/format/webp/thumbnail/686x/','//fuss10.elemecdn.com/8/5d/5c17e8c37ae87fd9ad46d84d57eccpng.png?imageMogr/format/webp/thumbnail/686x/', '//fuss10.elemecdn.com/7/1b/eac126f486afd64f30ac6889c358cpng.png?imageMogr/format/webp/thumbnail/686x/', '//fuss10.elemecdn.com/4/f3/cdb5977b8a152cf3d8100147f8807png.png?imageMogr/format/webp/thumbnail/686x/']
     }
   }
   // componentDidMount() {

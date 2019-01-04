@@ -1,12 +1,11 @@
-@import '../../../px2rem.scss';
-
+@import '@/views/px2rem.scss';
 
 // 商品/食物列表
 .goods-list{
   margin-top: px2rem(25);
   font-size: px2rem(25);
   // min-height: 100%;
-  height: px2rem(1260);
+  height: px2rem(1250);
   overflow-y: scroll;
   display: flex;
   // 商品分类 ul
@@ -26,16 +25,25 @@
       color: #333;
       span{
       font-size: px2rem(25);
+        a{
+          color: #999;
+        }
       }
     }
   }
   .goods-detail{
     width: 100%;
-    background-color: white;
-    padding: px2rem(15);
+    // background-color: white;
+    // padding: px2rem(15);
+    dl{
+      background-color: white;
+      // margin-top: px2rem(25);
+    }
     dt{
-      margin: px2rem(15) px2rem(10);
-      font-size: px2rem(25);
+      margin: px2rem(10) px2rem(10);
+      font-size: px2rem(28);
+      font-weight: bolder;
+      color: #666;
     }
     dd{
       font-size: px2rem(25);
