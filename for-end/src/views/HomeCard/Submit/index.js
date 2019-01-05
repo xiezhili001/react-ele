@@ -10,6 +10,7 @@ export default class order extends Component {
       timeArr: [1200000, 2400000, 3600000, 4800000, 6000000],
       dealTimeArr: [],
       carArr: []
+      // allPrice: ""
     }
   }
   getDB(num) {
@@ -62,18 +63,35 @@ export default class order extends Component {
       carArr: localStorage.getItem("cartList")
     })
   }
+  // getAllPrice() {
+  //   console.log(this.state.carArr);
+
+  //   let price = 0
+  //   this.state.carArr.map(item => {
+  //     price += item.num*(parseInt(item.price))
+  //     return item
+  //   })
+  //   this.setState({
+  //     allPrice: price
+  //   })
+  // }
   componentWillMount() {
     this.addMinites();
     this.setState({
       time: this.dateToString()
     })
     this.getData()
+    // this.getAllPrice()
 
   }
 
   render() {
     var dataArr = JSON.parse(this.state.carArr)
-    console.log(dataArr);
+    let price = 0
+    dataArr.map(item => {
+      price += item.num*(parseInt(item.price))
+      return item
+    })
     return (
       <div className="order">
         <div className="header">
@@ -135,7 +153,7 @@ export default class order extends Component {
           }
           </div>
         <div className="b">
-          <div className="l">￥16</div>
+          <div className="l">￥{price}</div>
           <div className="r">去支付</div>
         </div>
 
