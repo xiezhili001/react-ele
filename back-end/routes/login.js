@@ -13,7 +13,9 @@ router.post('/', (req, res, next) => {
   if (phone) {
     let code = sms.randomCode(4);
     sms.sendCode(phone, code, function(success) {
-
+      console.log('==================')
+      console.log(success);
+      console.log('==================')
       // 肯定发送成功
       codes[phone] = code;
       // console.log(codes);

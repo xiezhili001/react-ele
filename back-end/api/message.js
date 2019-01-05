@@ -31,19 +31,19 @@ function sendCode(phone, code, callback) {
      1.使用MD5加密（账户Id + 账户授权令牌 + 时间戳）。其中账户Id和账户授权令牌根据url的验证级别对应主账户。
      时间戳是当前系统时间，格式"yyyyMMddHHmmss"。时间戳有效时间为24小时，如：20140416142030
      2.SigParameter参数需要大写，如不能写成sig=abcdefg而应该写成sig=ABCDEFG
-     */
-    var sigParameter = '';
-    var time = moment().format('YYYYMMDDHHmmss');
-    sigParameter = md5(ACCOUNT_SID+AUTH_TOKEN+time);
-    var url = Rest_URL+'/2013-12-26/Accounts/'+ACCOUNT_SID+'/SMS/TemplateSMS?sig='+sigParameter;
+    */
+   var sigParameter = '';
+   var time = moment().format('YYYYMMDDHHmmss');
+   sigParameter = md5(ACCOUNT_SID+AUTH_TOKEN+time);
+   var url = Rest_URL+'/2013-12-26/Accounts/'+ACCOUNT_SID+'/SMS/TemplateSMS?sig='+sigParameter;
 
-    //2. 准备请求体
-    var body = {
-        to : phone,
-        appId : AppID,
-        templateId : '1',
-        "datas":[code,"1"]
-    }
+   //2. 准备请求体
+   var body = {
+       to : phone,
+       appId : AppID,
+       templateId : '1',
+       "datas":[code,"1"]
+   }
     //body = JSON.stringify(body);
 
     //3. 准备请求头
@@ -61,22 +61,22 @@ function sendCode(phone, code, callback) {
         'Authorization' : authorization
     }
 
+
     //4. 发送请求, 并得到返回的结果, 调用callback
 	  // callback(true);
-    request({
+      request({
         method : 'POST',
         url : url,
         headers : headers,
         body : body,
         json : true
     }, function (error, response, body) {
-        // console.log(error, response, body);
+        console.log(error, response, body);
         callback(body.statusCode==='000000');
         // callback(true);
     });
 }
 exports.sendCode = sendCode;
-
 /*
 sendCode('13716962779', randomCode(6), function (success) {
     console.log(success);

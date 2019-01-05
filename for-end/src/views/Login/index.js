@@ -70,9 +70,9 @@ class Login extends React.Component {
   settime = () => {
     let countdown = 60;
     countdown = cook3('secondsremained');
-    const timer = setInterval(() => {
+    this.timer = setInterval(() => {
       if (countdown <= 0) {
-        clearInterval(timer);
+        clearInterval(this.timer);
         this.setState({
           captchaBtnText:'重新获取'
         })
@@ -85,6 +85,11 @@ class Login extends React.Component {
       cook2('secondsremained',countdown,countdown+1);
     },1000);
   }
+
+  componentWillUnmount() {
+    clearInterval(this.timer);
+  }
+
   render() {
     return (
       <div className="login">
@@ -96,7 +101,7 @@ class Login extends React.Component {
               </div>
             </div>
             <div>
-              <form className="MessageLogin-iYvWA">
+              <div className="MessageLogin-iYvWA">
                 <section className="MessageLogin-FsPlX">
                 <input type="tel" placeholder="手机号" value={this.state.phone} onChange={this.handleGetInputValue} />
                 {/* <InputItem type="phone"  placeholder="186 1234 1234" >手机号码</InputItem> */}
@@ -116,7 +121,7 @@ class Login extends React.Component {
                 <button className="SubmitButton-2wG4T" onClick={this.login}>
                   登录
                 </button>
-              </form>
+              </div>
               <div className="MessageLogin-31EIr">关于我们</div>
             </div>
           </div>

@@ -9,7 +9,13 @@ class HomeCenter extends React.Component {
       username: '',
       userInfoUser: ''
     }
+    this.toLogin = this.toLogin.bind(this);
   }
+  toLogin () {
+    // console.log("dengl ")
+    this.props.history.push('/login');
+  }
+
   componentDidMount() {
     if (localStorage.getItem("username") === "") {
       this.refs["xxoo"].style.display = "none";
@@ -56,7 +62,7 @@ class HomeCenter extends React.Component {
           </section>
           {/* 这里写未登录时需要引入的组件 */}
           <div data-spm="maininfo" className="index-1G7HV" ref="ooxx" >
-            <div className="index-1ryAh">
+            <div className="index-1ryAh" onClick={this.toLogin} >
               <p>
                 <span className="index-2FmrF">
                   <i className="iconfont icon-renminbi2"></i>
@@ -65,7 +71,7 @@ class HomeCenter extends React.Component {
               </p>
               <p className="index-3S6cZ">钱包</p>
             </div>
-            <div className="index-1ryAh">
+            <div className="index-1ryAh" onClick={this.toLogin}  >
               <p>
                 <span className="index-2FmrF red">
                   <i className="iconfont icon-hongbao"></i>
@@ -74,7 +80,7 @@ class HomeCenter extends React.Component {
               </p>
               <p className="index-3S6cZ">红包</p>
             </div>
-            <div className="index-1ryAh">
+            <div className="index-1ryAh" onClick={this.toLogin}  >
               <p>
                 <span className="index-2FmrF green">
                   <i className="iconfont icon-qian2"></i>

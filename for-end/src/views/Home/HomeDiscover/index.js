@@ -1,6 +1,17 @@
 import React from 'react';
 import './index.scss'
 class HomeCinemas extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.toUrl = this.toUrl.bind(this);
+  }
+
+  toUrl () {
+    window.location.href = 'https://activity.m.duiba.com.cn/chome/index?from=login&spm=14695.1.1.1';
+    console.log("12123")
+  }
+
   render(){
     return (
       <div className="gao-discover">
@@ -66,7 +77,7 @@ class HomeCinemas extends React.Component {
        <p className="p4">9金币<span>￥239</span></p>
       </div>
       </div>
-      <div className="gao-discover-content-more">
+      <div className="gao-discover-content-more" onClick={this.toUrl}>
       查看更多<i className="iconfont icon-chevron-copy-copy"></i>
       </div>
       </div>
