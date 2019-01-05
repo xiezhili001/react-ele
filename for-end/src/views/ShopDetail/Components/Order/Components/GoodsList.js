@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './GoodsList.scss';
-import BottonCart from './BottomCart/index.js';
 import data from './elemGoods.json';
 
 
@@ -30,8 +29,6 @@ export default class GoodsList extends Component {
     })
     this.setState({
       elemGoods: products,
-    },() => {
-      console.log(this.state.elemGoods)
     })
 
   }
@@ -40,20 +37,30 @@ export default class GoodsList extends Component {
       curTab: id
     });
   }
-  /* goodsNum(goods) {
-    console.log(goods)
-    if (localStorage.getItem('cartList')) {
-      for (var i = 0; i < this.state.cartList.length; i++) {
-        if (this.state.cartList[i].pid === goods.pid) {
-          return this.state.cartList[i].num;
-        } else {
-          return 0;
-        }
-      }
-    } else {
-      return 0;
-    }
-  } */
+
+  // 判断食品数量
+  goodNum (id) {
+    let cartGood = this.state.cartList.find(item => {
+      return item.pid === id;
+    })
+    return cartGood ? cartGood.num : 0;
+  }
+
+  // 食品总额
+  payMoney () {
+    let tatolMoney = 0;
+    this.state.cartList.forEach(element => {
+      let price = element.price.split("元")[0];
+      console.log(price);
+      return tatolMoney += parseInt(price)*element.num;
+    });
+    return tatolMoney ? tatolMoney : 0;
+  }
+  componentDidUpdate() {
+    this.payMoney();
+  }
+
+  // 加入购物车
   addCart (food) {
     var flag = false; //默认存在
     var index = 0; //获取下标
@@ -93,8 +100,9 @@ export default class GoodsList extends Component {
         localStorage.setItem('cartList', JSON.stringify(this.state.cartList));
       })
     }
-
   }
+
+  // 从购物减去
   redCart (food) {
     var flag = false; //默认存在
     var index = 0; //获取下标
@@ -176,7 +184,7 @@ export default class GoodsList extends Component {
                       <div><span>￥{i.price}</span></div>
                       <div className='inandre'>
                         <i className='iconfont icon-jian1' onClick={this.redCart.bind(this, i)}></i>
-                          <span>{this.state.cartList ? (this.state.cartList[j] ? (this.state.cartList[j].num ? this.state.cartList[j].num : 0) : 0 ) : 0 }</span>
+                          <span>{this.goodNum(i.pid)}</span>
                         <i className='iconfont icon-jia' onClick={this.addCart.bind(this, i)}></i>
                       </div>
                     </div>
@@ -189,8 +197,17 @@ export default class GoodsList extends Component {
           })}
         </dl>
       </div>
-
-      <BottonCart></BottonCart>
+      {/* 底部购物车 */}
+      <div className="b">
+        <div className="l">
+          <p> </p>
+          <div className="y">
+          <span>￥{this.payMoney()}</span>
+          <div className="zi">另需配送费￥5</div>
+          </div>
+        </div>
+        <a href='#/card'><div className="r">去结算</div></a>
+      </div>
     </div>
     )
   }
