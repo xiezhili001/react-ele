@@ -111,8 +111,6 @@ class HomePage extends React.Component {
   }
 
   getList() {
-    console.log(dataJson);
-    // var newDataJson = JSON.parse(dataJson);
     this.setState({
       list: dataJson
     })
@@ -139,15 +137,14 @@ class HomePage extends React.Component {
       anchorElement.scrollIntoView({ block: 'start', behavior: 'smooth' });
     }
   }
-
-  componentWillMount() {
-    this.getList();
-  }
-
   drupDetail(sid) {
     this.props.history.push("/shopdetail/order");
     localStorage.setItem("shopId", sid);
   }
+  componentWillMount() {
+    this.getList();
+  }
+
   render() {
     let zlCity = this.state.myCity || '保安大道'
     return (
@@ -158,7 +155,7 @@ class HomePage extends React.Component {
 
         </div>
         <div className="foot-t">
-          <Link to="/food" className="food"><span className="iconfont icon-sousuo ">搜索饿了么商家、商品名称</span></Link>
+          <Link to="/search" className="food"><span className="iconfont icon-sousuo ">搜索饿了么商家、商品名称</span></Link>
         </div>
         <Carousel dots={false}>
           <ul className="banner">
@@ -231,7 +228,7 @@ class HomePage extends React.Component {
           {
             this.state.list.map((item, index) => (
               <li key={index}>
-                <div className="detail" onClick={this.drupDetail.bind(this, item.sid)}>
+                <div to="/detail" className="detail" onClick={this.drupDetail.bind(this, item.sid)}>
 
                   {/* eslint-disable-next-line */}
                   <img src={item.logo} key={index} />

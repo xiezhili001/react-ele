@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
 import './Common.scss';
 import data from '../Order/Components/elemGoods.json';
@@ -38,7 +38,6 @@ export default class Common extends Component {
     this.setState({
       shopData: Data
     })
-    console.log(this.state.shopData);
   }
   render() {
     return (
