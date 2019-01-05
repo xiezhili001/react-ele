@@ -145,7 +145,7 @@ class HomePage extends React.Component {
   }
 
   drupDetail(sid) {
-    this.props.history.push("/shopdetail");
+    this.props.history.push("/shopdetail/order");
     localStorage.setItem("shopId", sid);
   }
   render() {

@@ -32,7 +32,7 @@ class App extends React.Component {
           <Route path="/detailCity" component={detailCity}></Route>
           <Route path="/detailLoginInfo" component={DetailLoginInfo}></Route>
           <Route path="/updateUsername" component={UpdateUsername}></Route>
-          <Route path="/shopdetail" component={ShopDetail}></Route>
+          <Route path="/shopdetail/order" component={ShopDetail}></Route>
           <Route path="/login" component={login}></Route>
           <Route path="/rules" component={Rules}></Route>
           <Route path="/city" component={City}></Route>
