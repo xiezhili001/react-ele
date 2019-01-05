@@ -4,7 +4,7 @@
 .goods-list{
   margin-top: px2rem(25);
   font-size: px2rem(25);
-  // min-height: 100%;
+  // position: relative;
   height: px2rem(1250);
   overflow-y: scroll;
   display: flex;
@@ -14,7 +14,7 @@
     background-color: #f8f8f8;
     position: sticky;
     top: 0;
-    // z-index: 666;
+    overflow-y: auto;
     .cur-goods-type{
       background-color: white;
     }
@@ -50,10 +50,10 @@
       height: px2rem(230);
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: space-around;
       .goods-pic{
-        width: px2rem(190);
-        height: px2rem(190);
+        width: px2rem(170);
+        height: px2rem(170);
         img{
           width: 100%;
         }
@@ -63,13 +63,16 @@
         height: px2rem(197);
         h2{
           font-weight: 800;
-          font-size: px2rem(30);
+          font-size: px2rem(27);
           color: #333;
           margin: px2rem(20) 0;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
         }
         p{
           font-size: px2rem(20);
-          margin: px2rem(10) 0;
+          margin: px2rem(15) 0;
           color: #999;
           overflow: hidden;
           text-overflow: ellipsis;
@@ -80,18 +83,32 @@
           font-size: px2rem(20);
           color: #999;
         }
-        h3{
+        .h3{
           display: flex;
           justify-content: space-between;
-          margin: px2rem(25) px2rem(15);
-          span{
-            font-size: px2rem(28);
-            color: rgb(255, 83, 57);
+          font-size: px2rem(25);
+          margin: px2rem(25) 0;
+          line-height: px2rem(28);
+          div{
+            span{
+              font-size: px2rem(25);
+              color: rgb(255, 83, 57);
+            }
           }
-          i{
-          font-size: px2rem(50);
-          color: #2395ff;
-          margin-top:- px2rem(15);
+          .inandre{
+            display: flex;
+            justify-content: space-around;
+            color: rgb(255, 83, 57);
+            // margin-top: px2rem(15);
+            width: px2rem(190);
+          }
+          .icon-jia{
+            font-size: px2rem(50);
+            color: #2395ff;
+          }
+          .icon-jian1{
+            font-size: px2rem(50);
+            color: rgb(35, 149, 255);
           }
         }
       }

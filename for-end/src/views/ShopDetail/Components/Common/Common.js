@@ -27,7 +27,7 @@ export default class Common extends Component {
         <div className='topbg'>
           {/* eslint-disable-next-line jsx-a11y/alt-text */}
           <img src="https://fuss10.elemecdn.com/d/61/135a91686f2d4c2baa5a883e2459ajpeg.jpeg?imageMogr/format/webp/thumbnail/750x/thumbnail/!40p/blur/50x40/" />
-          <a href='http://www.baidu.com'><i className='iconfont icon-zuojiantou-'></i></a>
+          <a href='http://localhost:3000'><i className='iconfont icon-zuojiantou-'></i></a>
         </div>
 
         {/* 店铺详情描述 */}

@@ -9,6 +9,7 @@
 
   img {
     filter: opacity(60%);
+    width: 100%;
   }
 
   i {
@@ -28,12 +29,16 @@
   padding-top: px2rem(62);
 
   .detail-logo {
+    width: px2rem(150);
+    height: px2rem(150);
     position: absolute;
     top: 0;
     left: 50%;
-    margin-left: -75px;
-    margin-top: -120px;
-
+    margin-left: - px2rem(75);
+    margin-top: - px2rem(120);
+    img{
+      width: 100%;
+    }
     span {
       position: absolute;
       top: 0;
@@ -139,11 +144,10 @@
   margin-bottom: px2rem(10);
   background-color: white;
   border-bottom: px2rem(1) solid gray;
-
+  height: px2rem(81);
   div {
     flex: 1;
     height: px2rem(80);
-
     a {
       h2 {
         line-height: px2rem(80);
