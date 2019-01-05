@@ -19,12 +19,15 @@
       background-color: white;
     }
     li{
-      height: px2rem(98);
-      line-height: px2rem(98);
+      height: px2rem(100);
+      // line-height: px2rem(98);
+      display: flex;
+      justify-content:center;
+      align-items:Center;
       text-align: center;
       color: #333;
       span{
-      font-size: px2rem(25);
+      font-size: px2rem(18);
         a{
           color: #999;
         }
