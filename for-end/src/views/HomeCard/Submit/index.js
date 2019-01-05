@@ -105,7 +105,7 @@ export default class order extends Component {
                     <li>
                       <div><p>
                         {/* eslint-disable-next-line */}
-                        <img src="https://fuss10.elemecdn.com/7/2c/9cd94a63feda4dfbede17a0958218jpeg.jpeg?imageMogr/format/webp/thumbnail/!72x72r/gravity/Center/crop/72x72/" />
+                        <img src={item.images} />
                       </p>
                         <p><em>{item.name}</em><br />
                           <i className="xiao">不辣</i>
