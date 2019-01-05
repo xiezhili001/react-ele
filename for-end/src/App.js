@@ -19,7 +19,7 @@ class App extends React.Component {
     store.dispatch(setCity2());
     let userinfo = JSON.stringify(userData);
     localStorage.setItem("userInfo", userinfo);
-    if(localStorage.getItem("username") == null){
+    if (localStorage.getItem("username") == null) {
       localStorage.setItem("username", '');
     }
     // localStorage.setItem("username", '');
@@ -32,11 +32,12 @@ class App extends React.Component {
           <Route path="/detailCity" component={detailCity}></Route>
           <Route path="/detailLoginInfo" component={DetailLoginInfo}></Route>
           <Route path="/updateUsername" component={UpdateUsername}></Route>
+          <Route path="/shopdetail" component={ShopDetail}></Route>
           <Route path="/login" component={login}></Route>
           <Route path="/rules" component={Rules}></Route>
           <Route path="/city" component={City}></Route>
-          <Route path='/shopdetail' component={ ShopDetail }></Route>
-          <Route path='/submit' component={ Submit }></Route>
+          <Route path='/shopdetail' component={ShopDetail}></Route>
+          <Route path='/submit' component={Submit}></Route>
           <Route path="/" component={Home}></Route>
         </Switch>
       </Router>
