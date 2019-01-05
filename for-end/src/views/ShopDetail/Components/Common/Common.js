@@ -1,24 +1,43 @@
 import React, { Component } from 'react';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
 import './Common.scss';
+import data from '../Order/Components/elemGoods.json';
 
 export default class Common extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
+    this.state = {
+      shopData: {}
+    }
     this.maskSitch = this.maskSitch.bind(this);
     this.closeMask = this.closeMask.bind(this);
     this.maskBottom = this.maskBottom.bind(this);
   }
-  maskSitch(){
-   this.refs['closeMask'].style.display = 'block';
+  maskSitch() {
+    this.refs['closeMask'].style.display = 'block';
   }
-  maskBottom(){
+  maskBottom() {
     this.refs['bottomMask'].style.display = 'block';
   }
-  closeMask(){
-   this.refs['closeMask'].style.display = 'none';
-   this.refs['bottomMask'].style.display = 'none';
+  closeMask() {
+    this.refs['closeMask'].style.display = 'none';
+    this.refs['bottomMask'].style.display = 'none';
+  }
+  //获取数据
+  componentDidMount() {
+    let shopId = localStorage.getItem("shopId");
+    let Data = {};
+    data.map(item => {
+      if (shopId === item.sid) {
+        Data = item;
+      }
+      return Data;
+    })
+    this.setState({
+      shopData: Data
+    })
+    console.log(this.state.shopData);
   }
   render() {
     return (
@@ -34,17 +53,17 @@ export default class Common extends Component {
         <div className='detail-des'>
           {/* 店铺Logo */}
           <div className='detail-logo'>
-            <img src="//fuss10.elemecdn.com/d/61/135a91686f2d4c2baa5a883e2459ajpeg.jpeg?imageMogr/format/webp/thumbnail/150x/" alt='elem'/>
+            <img src={this.state.shopData.logo} alt='elem' />
             <span>品牌</span>
           </div>
 
           {/* 店铺名称 销售情况/中间弹出层*/}
           <div className='detail-shop' onClick={this.maskSitch}>
             <h2>
-              <span>深圳麦当劳进场路得来速餐厅</span><i className='iconfont icon-sanjiaoright'></i>
+              <span>{this.state.shopData.name}</span><i className='iconfont icon-sanjiaoright'></i>
             </h2>
             <p>
-            评价4.8&nbsp;&nbsp;&nbsp;月售822单 &nbsp;&nbsp;&nbsp;商家配送约28分钟
+              评价{this.state.shopData.score}&nbsp;&nbsp;&nbsp;月售{this.state.shopData.month_sales_count}单 &nbsp;&nbsp;&nbsp;商家配送约28分钟
             </p>
           </div>
 
@@ -61,28 +80,28 @@ export default class Common extends Component {
             <NavLink to='/shopdetail/order' activeClassName='cur-tab-bar'><h2 className='cur-h2'>点餐<span className='tab-bar-cur'></span></h2></NavLink>
           </div>
           <div className='tab-bar-2'>
-          <NavLink to='/shopdetail/evaluate' activeClassName='cur-tab-bar'><h2 className='cur-h2'>评价<span className='tab-bar-cur'></span></h2></NavLink>
+            <NavLink to='/shopdetail/evaluate' activeClassName='cur-tab-bar'><h2 className='cur-h2'>评价<span className='tab-bar-cur'></span></h2></NavLink>
           </div>
           <div className='tab-bar-3'>
-          <NavLink to='/shopdetail/seller' activeClassName='cur-tab-bar'><h2 className='cur-h2'>商家<span className='tab-bar-cur'></span></h2></NavLink>
+            <NavLink to='/shopdetail/seller' activeClassName='cur-tab-bar'><h2 className='cur-h2'>商家<span className='tab-bar-cur'></span></h2></NavLink>
           </div>
         </div>
 
         {/* 中间弹出层 */}
-        <div className='mask-info' ref='closeMask'  onClick={this.closeMask}>
+        <div className='mask-info' ref='closeMask' onClick={this.closeMask}>
           <CSSTransition
             timeout={500}
             classNames='r'
             className='animated fadeInUp r-enter-active popup'
-            onClick={(e) => {e.stopPropagation()}}
+            onClick={(e) => { e.stopPropagation() }}
           >
             <div>
-              <h2><span className='sprice-icon'>品牌</span>深圳麦当劳进场路得来速餐厅</h2>
+              <h2><span className='sprice-icon'>品牌</span>{this.state.shopData.name}</h2>
               <ul className='delivery'>
-                <li className='first-grade'>4.8<span>评分</span></li>
-                <li>818单<span>月售</span></li>
+                <li className='first-grade'>{this.state.shopData.score}<span>评分</span></li>
+                <li>{this.state.shopData.month_sales_count}单<span>月售</span></li>
                 <li>商家配送<span>约28分钟</span></li>
-                <li>9元<span>匹配送</span></li>
+                <li>{this.state.shopData.delivery_start_price}元<span>匹配送</span></li>
                 <li>1.7km<span>距离</span></li>
               </ul>
               <h3>——公告——</h3>
@@ -93,13 +112,13 @@ export default class Common extends Component {
         </div>
 
         {/* 底部弹出层 */}
-         <div className='mask-bottom' ref='bottomMask'  onClick={this.closeMask}>
+        <div className='mask-bottom' ref='bottomMask' onClick={this.closeMask}>
           <CSSTransition
             timeout={500}
             classNames='r'
             className='animated fadeInUp r-enter-active popup'
           >
-            <div className='popup' onClick={(e) => {e.stopPropagation()}}>
+            <div className='popup' onClick={(e) => { e.stopPropagation() }}>
               <h2>优惠活动</h2>
               <span className='close-mask' onClick={this.closeMask}><i className='iconfont icon-guanbi'></i></span>
               <ul className='yhhd'>
