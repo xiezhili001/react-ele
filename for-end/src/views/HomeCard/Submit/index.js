@@ -26,6 +26,7 @@ export default class order extends Component {
     dateStr += " " + this.getDB(h) + ":" + this.getDB(M);
     return dateStr;
   }
+  //送达时间
   addMinites() {
     let dateStr = new Date().getTime();
     let time = [];
@@ -97,19 +98,18 @@ export default class order extends Component {
             </li>
           </ul>
           {
-            dataArr.map((item,index) => {
+            dataArr.map((item, index) => {
               return (
-                 <div className="item" key={index}>
-                  <p >湘赣情木桶饭</p>
+                <div className="item" key={index}>
+                  <p className="p1">湘赣情木桶饭</p>
                   <ul className="form">
                     <li>
-                      <div><p>
-                        {/* eslint-disable-next-line */}
-                        <img src={item.images} />
-                      </p>
-                        <p><em>{item.name}</em><br />
-                          <i className="xiao">不辣</i>
+                      <div>
+                        <p>
+                          {/* eslint-disable-next-line */}
+                          <img src={item.images} />
                         </p>
+                        <p className="pname">{item.name}</p>
                       </div>
                       <div>x {item.num}</div>
                       <div>￥{parseInt(item.price)}</div>
@@ -133,7 +133,7 @@ export default class order extends Component {
               )
             })
           }
-          </div>
+        </div>
         <div className="b">
           <div className="l">￥16</div>
           <div className="r">去支付</div>

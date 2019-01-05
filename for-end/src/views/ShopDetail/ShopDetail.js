@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter ,Route, Switch, Redirect} from 'react-router-dom';
+import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 import './ShopDetail.scss';
 
@@ -16,13 +16,12 @@ export default class ShopDetail extends Component {
     return (
       <HashRouter>
         <div id='shopdetail'>
-        <Common></Common>
-        <Switch>
-          <Route path='/shopdetail/order' component={ Order }></Route>
-          <Route path='/shopdetail/evaluate' component={ Evaluate }></Route>
-          <Route path='/shopdetail/seller' component={ Seller }></Route>
-          <Redirect to='/shopdetail/order'></Redirect>
-        </Switch>
+          <Common></Common>
+          <Switch>
+            <Route path='/shopdetail/order' component={Order}></Route>
+            <Route path='/shopdetail/evaluate' component={Evaluate}></Route>
+            <Route path='/shopdetail/seller' component={Seller}></Route>
+          </Switch>
         </div>
       </HashRouter>
     )
