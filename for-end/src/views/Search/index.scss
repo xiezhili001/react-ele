@@ -1,0 +1,99 @@
+@import '@/styles/common/px2rem.scss';
+.search{
+    height: 100%;
+    width:100%;
+    background: white;
+    .header{
+        height: px2rem(50);      
+        display: flex;
+        padding-top: px2rem(10);
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: px2rem(30);
+        span{
+            flex:1;
+            font-size: px2rem(18);
+            color: #888888cf;
+        }
+        input{
+            flex: 4;
+            background-color: #f8f8f8;
+            border: none;
+            height: px2rem(30);
+            padding-left: px2rem(15);
+            font-size: px2rem(15);
+            margin-right: px2rem(17);
+            color: #ccc;
+
+            
+        }
+        p{
+            flex: 1;
+        }
+      
+    }
+    .s-li{
+        height: px2rem(40);
+        display: flex;
+        font-size: px2rem(10);
+        align-items: center;
+        padding: 0 px2rem(10);
+        // justify-content:space-between;
+        div{
+            display: flex;
+            justify-content:space-between;
+            flex: 5;
+            border-bottom: px2rem(0.5) #eee solid;
+            height:100%;
+
+        }
+        span{
+            font-size: px2rem(13);
+            line-height: px2rem(30);
+            b{
+                background: red;
+                color: white;
+                border-radius: 4px;
+                font-size: px2rem(3);
+                width:px2rem(7);
+                height: px2rem(5);
+                // line-height: px2rem(5);
+                margin-left: px2rem(10)
+                
+            }
+        }
+        .s-fen{
+            font-size:px2rem(10);
+            color: #ccc;
+        }
+        img{
+            width:px2rem(30);
+            float: left;
+            margin-right: px2rem(20);
+            
+        }
+       
+    
+    }
+  .s-hot{
+      p{
+          font-weight:500;
+          color: #666;
+          font-size: px2rem(17);
+          margin-bottom: px2rem(30);
+          padding-left: px2rem(10);
+      }
+    .section{
+        padding-left: px2rem(10);
+    
+        span{
+           
+            padding:px2rem(5) px2rem(8);
+            background-color: #f7f7f7;
+            margin-right: px2rem(10);
+            font-size: px2rem(15);
+            color: #666;
+        }
+    }
+  }  
+}

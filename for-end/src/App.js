@@ -12,7 +12,7 @@ import City from './views/City';
 import Rules from './views/Rules/index';
 import login from './views/Login/index';
 import Submit from './views/Submit/index';
-import Search from "./"
+import Search from "./views/Search/index";
 
 class App extends React.Component {
 
