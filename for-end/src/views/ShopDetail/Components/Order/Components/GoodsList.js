@@ -10,7 +10,7 @@ export default class GoodsList extends Component {
     this.state = {
       curTab: 0,
       elemGoods: [],
-      cartList: localStorage.getItem('cartList') ? JSON.parse(localStorage.getItem('cartList')) : []
+      cartList: localStorage.getItem('cartList') ? JSON.parse(localStorage.getItem('cartList')) : [],
     }
   }
   componentWillMount() {
@@ -40,14 +40,18 @@ export default class GoodsList extends Component {
       curTab: id
     });
   }
-  /* goodsNum(id) {
-    // this.state.cartList[j] ? this.state.cartList[j-1].num : 0;
-    for (var i = 0; i < this.state.cartList.length; i++) {
-      if (this.state.cartList[i].pid === id) {
-        return this.state.cartList[i].num;
-      } else {
-        return 0;
+  /* goodsNum(goods) {
+    console.log(goods)
+    if (localStorage.getItem('cartList')) {
+      for (var i = 0; i < this.state.cartList.length; i++) {
+        if (this.state.cartList[i].pid === goods.pid) {
+          return this.state.cartList[i].num;
+        } else {
+          return 0;
+        }
       }
+    } else {
+      return 0;
     }
   } */
   addCart (food) {
@@ -76,7 +80,7 @@ export default class GoodsList extends Component {
       // console.log(updateData);
       this.setState({
         cartList: cartList
-      },function () {
+      }, function () {
         localStorage.setItem('cartList', JSON.stringify(this.state.cartList));
       })
     }else{
@@ -172,8 +176,7 @@ export default class GoodsList extends Component {
                       <div><span>￥{i.price}</span></div>
                       <div className='inandre'>
                         <i className='iconfont icon-jian1' onClick={this.redCart.bind(this, i)}></i>
-                        {/* { this.goodsNum(i.pid) } */}
-                          <span>0</span>
+                          <span>{this.state.cartList ? (this.state.cartList[j] ? (this.state.cartList[j].num ? this.state.cartList[j].num : 0) : 0 ) : 0 }</span>
                         <i className='iconfont icon-jia' onClick={this.addCart.bind(this, i)}></i>
                       </div>
                     </div>
