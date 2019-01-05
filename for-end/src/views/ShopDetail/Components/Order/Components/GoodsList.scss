@@ -31,6 +31,7 @@
       }
     }
   }
+  //分类详情
   .goods-detail{
     width: 100%;
     // background-color: white;
@@ -114,4 +115,64 @@
       }
     }
   }
+// 底部购物车
+.b{
+  height: px2rem(100) !important;
+  width:100%;
+  position: fixed;
+  bottom:0;
+  z-index:9;
+  .l{
+      height:100%;
+      float: left;
+      width:75%;
+      background: rgba(61,61,63,.9);
+      // position: absolute;
+     p{
+         width:px2rem(100);
+         height:px2rem(100);
+         background-color: #0085fffa;
+         background-clip:padding-box;
+         border: px2rem(12) solid #191a1b94;
+         border-radius: 100%;
+         background-image: url(./img/1.png) ;
+         background-repeat: no-repeat;
+         background-position:center center;
+         background-origin:padding-box;
+         position: relative;
+         margin-top: px2rem(-20);
+         margin-left: px2rem(40);
+     }
+
+
+  }
+  .r{
+      height:100%;
+      float: right;
+      width:25%;
+      background: #38ca73;
+      text-align: center;
+      line-height:px2rem(100);
+      font-weight: 600;
+      color:white;
+  }
+  .y{
+      margin-top:px2rem(20);
+      position: absolute;
+      top:-0.1px;
+    margin-left:px2rem(200);
+    float:right;
+    z-index: 99999999999999999999;
+    span{
+        color: #ffe607;
+        font-weight: 700;
+        font-size: px2rem(28);
+    }
+  }
+  .zi{
+      font-size: px2rem(6);
+      margin: px2rem(10) 0;
+      color: #999;
+  }
+}
 }
