@@ -1,13 +1,15 @@
 @import '@/styles/common/px2rem.scss';
 .order{
+    position: relative;
     height:100%;
 
-    // display: flex;
+    display: flex;
+    flex-direction: column;
     // flex: 1;
     overflow-y:scroll;
     .header{
         // text-align: center;
-        position: sticky;
+        // position: sticky;
         top: 0;
         width: 100%;
         height:px2rem(50);
@@ -211,7 +213,7 @@
         }
         .b{
             position: fixed;
-            bottom: 0;
+            bottom: px2rem(48);
             width:100%;
             height: px2rem(50);
             background: #00e067;
