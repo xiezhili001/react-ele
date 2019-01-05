@@ -8,7 +8,8 @@ export default class order extends Component {
       time: "",
       animating: false,
       timeArr: [1200000, 2400000, 3600000, 4800000, 6000000],
-      dealTimeArr: []
+      dealTimeArr: [],
+      carArr: []
     }
   }
   getDB(num) {
@@ -55,13 +56,24 @@ export default class order extends Component {
   close() {
     this.refs['choose'].style.display = "none";
   }
+  // 得到数据
+  getData() {
+    this.setState({
+      carArr: localStorage.getItem("cartList")
+    })
+  }
   componentWillMount() {
     this.addMinites();
     this.setState({
       time: this.dateToString()
     })
+    this.getData()
+
   }
+
   render() {
+    var dataArr = JSON.parse(this.state.carArr)
+    console.log(dataArr);
     return (
       <div className="order">
         <div className="header">
@@ -84,37 +96,44 @@ export default class order extends Component {
               <p>在线支付</p>
             </li>
           </ul>
-          <div className="item">
-            <p >湘赣情木桶饭</p>
-            <ul className="form">
-              <li>
-                <div><p>
-                  {/* eslint-disable-next-line */}
-                  <img src="https://fuss10.elemecdn.com/7/2c/9cd94a63feda4dfbede17a0958218jpeg.jpeg?imageMogr/format/webp/thumbnail/!72x72r/gravity/Center/crop/72x72/" />
-                </p>
-                  <p><em>油豆腐炒肉饭</em><br />
-                    <i className="xiao">不辣</i>
-                  </p>
+          {
+            dataArr.map((item,index) => {
+              return (
+                 <div className="item" key={index}>
+                  <p >湘赣情木桶饭</p>
+                  <ul className="form">
+                    <li>
+                      <div><p>
+                        {/* eslint-disable-next-line */}
+                        <img src="https://fuss10.elemecdn.com/7/2c/9cd94a63feda4dfbede17a0958218jpeg.jpeg?imageMogr/format/webp/thumbnail/!72x72r/gravity/Center/crop/72x72/" />
+                      </p>
+                        <p><em>{item.name}</em><br />
+                          <i className="xiao">不辣</i>
+                        </p>
+                      </div>
+                      <div>x {item.num}</div>
+                      <div>￥{parseInt(item.price)}</div>
+                    </li>
+                    <li>
+                      <div><p className="package">包装</p>
+                        <p>餐盒</p>
+                      </div>
+                      <div>￥1</div>
+                    </li>
+                    <li>
+                      <div>
+                        <p className="buin">商家</p>
+                        <p className="mon">配送费</p>
+                      </div>
+                      <div>￥1</div>
+                    </li>
+                  </ul>
                 </div>
-                <div>x 1</div>
-                <div>￥14</div>
-              </li>
-              <li>
-                <div><p className="package">包装</p>
-                  <p>餐盒</p>
-                </div>
-                <div>￥1</div>
-              </li>
-              <li>
-                <div>
-                  <p className="buin">商家</p>
-                  <p className="mon">配送费</p>
-                </div>
-                <div>￥1</div>
-              </li>
-            </ul>
+
+              )
+            })
+          }
           </div>
-        </div>
         <div className="b">
           <div className="l">￥16</div>
           <div className="r">去支付</div>
