@@ -85,6 +85,9 @@ export default class order extends Component {
     // this.getAllPrice()
 
   }
+  goBack() {
+    this.props.history.push('/shopdetail/order')
+  }
 
   render() {
     var dataArr = JSON.parse(this.state.carArr)
@@ -96,7 +99,7 @@ export default class order extends Component {
     return (
       <div className="order">
         <div className="header">
-          <div className="iconfont icon-zuojiantou aror"></div>
+          <div className="iconfont icon-zuojiantou aror" onClick={this.goBack.bind(this)}></div>
           <div className="sure">确认订单</div>
         </div>
         <div className="s1">

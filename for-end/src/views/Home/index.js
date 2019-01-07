@@ -14,7 +14,7 @@ export default class Home extends Component {
       myTabs: [
         { key: 'HomePage', href: "/HomePage", icon: "icon-shouye", name: '首页' },
         { key: 'discover', href: "/discover", icon: "icon-faxian", name: '发现' },
-        { key: 'card', href: "/homecard", icon: "icon-dingdan", name: '订单' },
+        { key: 'card', href: "/submit", icon: "icon-dingdan1", name: '订单' },
         { key: 'center', href: "/center", icon: "icon-tubiao-", name: '我的' }
       ]
     }

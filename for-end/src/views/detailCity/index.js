@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { SearchBar } from 'antd-mobile';
 import './index.scss'
 import store from '../../store';
-import axios from 'axios';
+// import axios from 'axios';
+import JSON from './cityDetail.json'
 
 export default class City extends Component {
   constructor(props) {
@@ -11,7 +12,7 @@ export default class City extends Component {
     // 这个地方只是默认从仓库中拿取数据。而仓库发生了变化，这行代码不会重复的执行
     this.state = {
       myCity: store.getState().city.curCity,
-      detailCity:[]
+      // detailCity:[]
     }
 
     this.unsubscribe=store.subscribe(() => {
@@ -42,13 +43,13 @@ export default class City extends Component {
     this.props.history.replace('/films')
   }
 
-  componentWillMount(){
-    axios.get("/api/detailCity/list").then(res=>{
-      this.setState({
-        detailCity:res.data.data.films
-      })
-    })
-  }
+  // componentWillMount(){
+  //   axios.get("/api/detailCity/list").then(res=>{
+  //     this.setState({
+  //       detailCity:res.data.data.films
+  //     })
+  //   })
+  // }
   componentWillUnmount(){
     this.unsubscribe();
   }
@@ -65,7 +66,7 @@ export default class City extends Component {
         </div>
         <ul className="all-cinemas">
           {
-            this.state.detailCity.map(item => {
+            JSON.map(item => {
               return (
                   <li className="cinemas-list-item" key={item.request_id} onClick={this.goBack.bind(this,item.short_address)}>
                     <div className="cinema-info-lf cinema-info">
@@ -80,7 +81,7 @@ export default class City extends Component {
               )
             })
           }
-        </ul> 
+        </ul>
       </div>
     )
   }
